@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mxenc)(type Legacy)(uri ${KIPRJMOD}/mxenc.lib)(options "")(descr ""))
+  (lib (name SDINBDG4-8G)(type Legacy)(uri ${KIPRJMOD}/SDINBDG4-8G.lib)(options "")(descr ""))
+)

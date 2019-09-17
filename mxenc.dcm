@@ -1,0 +1,118 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AON7405
+D P-MOSFET transistor, source/gate/drain
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP CYPD4155-96BZXI
+D CCG4M Single Port USB Controller + Mux
+$ENDCMP
+#
+$CMP DCDC_5V
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_1V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_3V3
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_DRAM_1V1
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_ENET
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_SD2
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP NVCC_SNVS_1V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VBUS_IN
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDDA_1V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDDEXT_3V3
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_1V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_3V3
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_5V
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_ARM_0V9
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_DRAM&PU_0V9
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_PCIE_1V5
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_PHY_0V9
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_PHY_1V2
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_SNVS_0V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VDD_SOC_0V8
+D Power flag
+K power-flag
+$ENDCMP
+#
+$CMP VSYS_5V
+D Power flag
+K power-flag
+$ENDCMP
+#
+#End Doc Library
