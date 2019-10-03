@@ -343,7 +343,7 @@ U 1 1 5DCEF8A6
 P 7200 1750
 F 0 "R21" V 6993 1750 50  0000 C CNN
 F 1 "3.3" V 7084 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 1750 50  0001 C CNN
 F 3 "~" H 7200 1750 50  0001 C CNN
 	1    7200 1750
 	0    1    1    0   
@@ -1129,4 +1129,14 @@ Wire Wire Line
 	2600 3500 2700 3500
 Wire Wire Line
 	2600 3600 2700 3600
+Text Label 7350 2500 0    50   ~ 0
+SW
+Text Label 7350 3150 0    50   ~ 0
+FB
+Text Label 5750 2850 0    50   ~ 0
+EN
+Text Label 6100 3250 0    50   ~ 0
+MODE
+Text Label 6800 2100 0    50   ~ 0
+BST
 $EndSCHEMATC
