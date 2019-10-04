@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mxenc-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
