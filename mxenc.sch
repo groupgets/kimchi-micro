@@ -781,58 +781,13 @@ F 3 "" H 2250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6200 6300 6250
-$Comp
-L mxenc:VDD_3V3 #PWR0243
-U 1 1 5D683A71
-P 6300 6200
-F 0 "#PWR0243" H 6300 6050 50  0001 C CNN
-F 1 "VDD_3V3" H 6315 6373 50  0000 C CNN
-F 2 "" H 6300 6200 50  0001 C CNN
-F 3 "" H 6300 6200 50  0001 C CNN
-	1    6300 6200
-	1    0    0    -1  
-$EndComp
-Connection ~ 6000 7050
-Wire Wire Line
 	6000 7050 6000 7100
 Wire Wire Line
-	6300 7050 6000 7050
-Wire Wire Line
-	6300 7000 6300 7050
-Connection ~ 6300 6600
-Wire Wire Line
-	6300 6600 6300 6700
-Wire Wire Line
-	6300 6600 6300 6550
-Wire Wire Line
-	5700 6600 6300 6600
+	5700 6600 6000 6600
 Wire Wire Line
 	5700 6800 5700 6600
 Wire Wire Line
 	5100 6800 5700 6800
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5D620C66
-P 6300 6400
-F 0 "JP1" V 6254 6468 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 6345 6468 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6300 6400 50  0001 C CNN
-F 3 "~" H 6300 6400 50  0001 C CNN
-	1    6300 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R53
-U 1 1 5D60D82D
-P 6300 6850
-F 0 "R53" V 6093 6850 50  0000 C CNN
-F 1 "10K" V 6184 6850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 6230 6850 50  0001 C CNN
-F 3 "~" H 6300 6850 50  0001 C CNN
-	1    6300 6850
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0241
 U 1 1 5D60BC52
@@ -1225,4 +1180,6 @@ Text Notes 4200 6300 0    50   ~ 0
 BOOT_MODE[1:0] == 00 :: Boot from fuses\nBOOT_MODE[1:0] == 01 :: Serial downloader
 Text Notes 7700 7000 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
+Text Label 6000 6600 0    50   ~ 0
+BTN0
 $EndSCHEMATC
