@@ -1,4 +1,4 @@
-update=Saturday, August 31, 2019 at 06:47:14 PM
+update=Friday, November 15, 2019 at 08:49:46 AM
 version=1
 last_client=kicad
 [general]
@@ -256,7 +256,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.0889
 ViaDiameter=0.5
 ViaDrill=0.2
@@ -267,7 +267,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CSI/DSI
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.127
 ViaDiameter=0.4
 ViaDrill=0.2
@@ -278,7 +278,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=DP
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.127
 ViaDiameter=0.4
 ViaDrill=0.2
@@ -289,7 +289,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=DRAM
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.127
 ViaDiameter=0.4
 ViaDrill=0.2
@@ -300,7 +300,7 @@ dPairGap=0.0889
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=PCIE
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.127
 ViaDiameter=0.4
 ViaDrill=0.2
@@ -311,7 +311,7 @@ dPairGap=0.0889
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=USB
-Clearance=0.0762
+Clearance=0.0889
 TrackWidth=0.127
 ViaDiameter=0.4
 ViaDrill=0.2

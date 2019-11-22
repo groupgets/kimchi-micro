@@ -640,38 +640,22 @@ Text Label 1700 3450 0    50   ~ 0
 I2C2_SCL
 Text Label 1700 3350 0    50   ~ 0
 I2C2_SDA
-Text Label 15650 7100 0    50   ~ 0
+Text Label 15650 7350 0    50   ~ 0
 I2C3_SCL
-Text Label 15650 7200 0    50   ~ 0
+Text Label 15650 7450 0    50   ~ 0
 I2C3_SDA
 Wire Wire Line
-	15650 7100 15500 7100
-Wire Wire Line
-	15650 7200 15550 7200
-Wire Wire Line
-	15500 7100 15500 7350
-Wire Wire Line
 	15500 7350 15400 7350
-Connection ~ 15500 7100
-Wire Wire Line
-	15500 7100 15400 7100
 Wire Wire Line
 	15500 7350 15500 7600
 Wire Wire Line
 	15500 7600 15400 7600
-Connection ~ 15500 7350
-Wire Wire Line
-	15550 7200 15550 7450
 Wire Wire Line
 	15550 7450 15400 7450
-Connection ~ 15550 7200
-Wire Wire Line
-	15550 7200 15400 7200
 Wire Wire Line
 	15550 7450 15550 7700
 Wire Wire Line
 	15550 7700 15400 7700
-Connection ~ 15550 7450
 Text Label 13100 7600 2    50   ~ 0
 DP_SUSP
 Wire Wire Line
@@ -987,13 +971,9 @@ Connection ~ 10300 7950
 Wire Wire Line
 	10300 8100 10300 7950
 Wire Wire Line
-	10400 7950 10600 7950
-Connection ~ 10400 7950
-Wire Wire Line
 	10400 8100 10400 7950
 Wire Wire Line
 	10600 7950 10700 7950
-Connection ~ 10600 7950
 Wire Wire Line
 	10600 8400 10600 7950
 Wire Wire Line
@@ -1182,4 +1162,36 @@ Text Notes 7700 7000 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
 Text Label 6000 6600 0    50   ~ 0
 BTN0
+Text Notes 2450 4200 0    35   ~ 0
+EN - output, 3.3v push-pull\nOC - input, internal pull-up
+Text Notes 6050 2950 0    35   ~ 0
+WDOG - input, internal pull-up\nnINT - input, internal pull-up\nVSEL - output, 1.8v push-pull
+Wire Wire Line
+	15400 7100 15650 7100
+Wire Wire Line
+	15400 7200 15650 7200
+Wire Wire Line
+	15650 7350 15500 7350
+Connection ~ 15500 7350
+Wire Wire Line
+	15550 7450 15650 7450
+Connection ~ 15550 7450
+$Comp
+L mxenc:VDD_3V3 #PWR0142
+U 1 1 5DC891CB
+P 10600 7850
+F 0 "#PWR0142" H 10600 7700 50  0001 C CNN
+F 1 "VDD_3V3" H 10615 8023 50  0000 C CNN
+F 2 "" H 10600 7850 50  0001 C CNN
+F 3 "" H 10600 7850 50  0001 C CNN
+	1    10600 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 7850 10600 7950
+Connection ~ 10600 7950
+Text Label 15650 7100 0    50   ~ 0
+I2C2_SCL
+Text Label 15650 7200 0    50   ~ 0
+I2C2_SDA
 $EndSCHEMATC
