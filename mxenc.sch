@@ -1291,4 +1291,15 @@ F 3 "" H 11750 10350 50  0001 C CNN
 	1    11750 10350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x35_Odd_Even J9
+U 1 1 5E041DEE
+P 11550 6000
+F 0 "J9" H 11600 7917 50  0000 C CNN
+F 1 "Conn_02x35_Odd_Even" H 11600 7826 50  0000 C CNN
+F 2 "mxenc:DF40HC(3.0)-70DS" H 11550 6000 50  0001 C CNN
+F 3 "~" H 11550 6000 50  0001 C CNN
+	1    11550 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
