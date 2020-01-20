@@ -2283,4 +2283,10 @@ F 6 "ESD130B1W0201E6327XTSA1" H 13850 4550 50  0001 C CNN "Part"
 	1    13850 4550
 	0    1    1    0   
 $EndComp
+Text Notes 2400 8900 0    50   ~ 0
+7-bit addr: 0x2C/0x2D
+Text Notes 6250 9750 0    50   ~ 0
+7-bit addr: 0x54
+Text Notes 9100 3650 0    50   ~ 0
+7-bit addr: 0x72
 $EndSCHEMATC
