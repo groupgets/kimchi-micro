@@ -1,4 +1,4 @@
-update=Sunday, December 01, 2019 at 05:07:43 PM
+update=Thursday, January 23, 2020 at 03:35:13 PM
 version=1
 last_client=kicad
 [general]
@@ -287,21 +287,10 @@ ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.0889
-dPairGap=0.1016
+dPairWidth=0.086106
+dPairGap=0.10414
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=DP
-Clearance=0.0762
-TrackWidth=0.127
-ViaDiameter=0.4
-ViaDrill=0.2
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.0889
-dPairGap=0.1016
-dPairViaGap=0.25
-[pcbnew/Netclasses/3]
 Name=DRAM
 Clearance=0.0762
 TrackWidth=0.121666
@@ -312,7 +301,7 @@ uViaDrill=0.1
 dPairWidth=0.1397
 dPairGap=0.0889
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/3]
 Name=PCIE
 Clearance=0.0762
 TrackWidth=0.127
@@ -320,10 +309,10 @@ ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1397
-dPairGap=0.0889
+dPairWidth=0.126746
+dPairGap=0.1016
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/4]
 Name=USB
 Clearance=0.0762
 TrackWidth=0.127

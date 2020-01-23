@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -101,7 +101,7 @@ U 5D6742B7
 F0 "USB" 50
 F1 "USB.sch" 50
 F2 "LD1_~INT" I L 13350 6850 50 
-F3 "USB2_VBUS_IN" O L 13350 6950 50 
+F3 "USB1_VBUS_IN" O L 13350 6950 50 
 F4 "USB1_VBUS_OC" O L 13350 7300 50 
 F5 "USB1_VBUS_EN" I L 13350 7400 50 
 F6 "DP_IRQ" O R 15400 6900 50 
@@ -110,8 +110,8 @@ F8 "DP_SCL" I R 15400 7100 50
 F9 "DP_SDA" B R 15400 7200 50 
 F10 "USB2_SCL" I R 15400 7350 50 
 F11 "USB2_SDA" B R 15400 7450 50 
-F12 "USB2_PWR_SDA" B R 15400 7700 50 
-F13 "USB2_PWR_SCL" I R 15400 7600 50 
+F12 "USB1_PWR_SDA" B R 15400 7700 50 
+F13 "USB1_PWR_SCL" I R 15400 7600 50 
 F14 "DP_SUSP" I L 13350 7600 50 
 $EndSheet
 $Sheet
@@ -1244,7 +1244,7 @@ Wire Wire Line
 	5100 6900 5700 6900
 Text Notes 4200 6300 0    50   ~ 0
 BOOT_MODE[1:0] == 00 :: Boot from fuses\nBOOT_MODE[1:0] == 01 :: Serial downloader
-Text Notes 7700 7000 0    50   ~ 0
+Text Notes 7200 7050 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
 Text Label 6000 6600 0    50   ~ 0
 BTN0
@@ -1291,15 +1291,10 @@ F 3 "" H 11750 10350 50  0001 C CNN
 	1    11750 10350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x35_Odd_Even J9
-U 1 1 5E041DEE
-P 11550 6000
-F 0 "J9" H 11600 7917 50  0000 C CNN
-F 1 "Conn_02x35_Odd_Even" H 11600 7826 50  0000 C CNN
-F 2 "mxenc:DF40HC(3.0)-70DS" H 11550 6000 50  0001 C CNN
-F 3 "~" H 11550 6000 50  0001 C CNN
-	1    11550 6000
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 11000 5550 1450 850 
+U 5E34BAA5
+F0 "Expansion" 50
+F1 "expansion.sch" 50
+$EndSheet
 $EndSCHEMATC

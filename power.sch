@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -287,11 +287,11 @@ U 1 1 5DCF0EA4
 P 8200 2500
 F 0 "L7" V 8390 2500 50  0000 C CNN
 F 1 "1.5uH" V 8299 2500 50  0000 C CNN
-F 2 "Inductor_SMD:L_6.3x6.3_H3" H 8200 2500 50  0001 C CNN
+F 2 "Inductor_SMD:L_Wuerth_MAPI-4020" H 8200 2500 50  0001 C CNN
 F 3 "~" H 8200 2500 50  0001 C CNN
-F 4 "P19760CT-ND" H 8200 2500 50  0000 C CNN "Vendorpart"
-F 5 "Panasonic" H 8200 2500 50  0001 C CNN "Mfgr"
-F 6 "ETQ-P3M1R5KVP" H 8200 2500 50  0001 C CNN "Part"
+F 4 "732-11199-1-ND" H 8200 2500 50  0000 C CNN "Vendorpart"
+F 5 "Würth" H 8200 2500 50  0001 C CNN "Mfgr"
+F 6 "74438357015" H 8200 2500 50  0001 C CNN "Part"
 	1    8200 2500
 	0    -1   -1   0   
 $EndComp
@@ -1192,4 +1192,6 @@ Wire Wire Line
 	3850 3150 3850 2950
 Wire Wire Line
 	3850 2950 4200 2950
+Text Notes 12800 2750 0    50   ~ 0
+AON2405 is EOL. Possible replacement\nhttps://www.digikey.com/product-detail/en/0/785-AONR21305CTR-ND
 $EndSCHEMATC
