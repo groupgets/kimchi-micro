@@ -482,13 +482,13 @@ Text Label 6600 1500 2    50   ~ 0
 LED_G
 Text Label 6600 1700 2    50   ~ 0
 LED_B
-Text Label 7750 3150 2    50   ~ 0
+Text Label 7300 9200 2    50   ~ 0
 UART2_TX
-Text Label 7750 3250 2    50   ~ 0
+Text Label 7300 9100 2    50   ~ 0
 UART2_RX
-Text Label 7750 3350 2    50   ~ 0
+Text Label 7300 8300 2    50   ~ 0
 UART2_RTS_B
-Text Label 7750 3450 2    50   ~ 0
+Text Label 7300 8400 2    50   ~ 0
 UART2_CTS_B
 Text Label 7750 3900 2    50   ~ 0
 UART1_TX
@@ -980,8 +980,6 @@ F 6 "490-5575-1-ND" H 1850 8700 50  0001 C CNN "Vendorpart"
 	1    1850 8700
 	1    0    0    -1  
 $EndComp
-Text Label 7300 9100 2    50   ~ 0
-DP_SUSP
 Text Label 11250 9800 0    50   ~ 0
 I2C4_SDA
 Text Label 11250 9700 0    50   ~ 0
@@ -998,14 +996,9 @@ Text Label 11250 8900 0    50   ~ 0
 I2C1_SDA
 Text Label 11250 8800 0    50   ~ 0
 I2C1_SCL
-Text Label 7300 9200 2    50   ~ 0
-DP_IRQ
-Text Label 7300 9400 2    50   ~ 0
-DP_EN
 NoConn ~ 7300 9700
 Text Label 7300 9800 2    50   ~ 0
 LD1_~INT
-NoConn ~ 7300 9500
 NoConn ~ 7300 8900
 NoConn ~ 7300 8800
 $Comp
@@ -1297,4 +1290,6 @@ U 5E34BAA5
 F0 "Expansion" 50
 F1 "expansion.sch" 50
 $EndSheet
+NoConn ~ 7300 8300
+NoConn ~ 7300 8400
 $EndSCHEMATC

@@ -28,21 +28,6 @@ F 6 "568-15276-ND" H 8200 7200 50  0001 C CNN "Vendorpart"
 	9    8200 7200
 	1    0    0    -1  
 $EndComp
-$Comp
-L mxenc:SDINBDG4-8G U5
-U 1 1 5D196F4B
-P 4950 5500
-F 0 "U5" H 3707 5546 50  0000 R CNN
-F 1 "SDINBDG4-8G" H 3707 5455 50  0000 R CNN
-F 2 "mxenc:BGA153C50P14X14_1300X1150X80N" H 4950 5500 50  0001 L BNN
-F 3 "" H 4950 5500 50  0001 L BNN
-F 4 "SanDisk" H 4950 5500 50  0001 C CNN "Mfgr"
-F 5 "SDINBDG4-8G-I1" H 4950 5500 50  0001 C CNN "Part"
-F 6 "Mouser" H 4950 5500 50  0001 C CNN "Vendor"
-F 7 "467-SDINBDG4-8G-I1" H 4950 5500 50  0001 C CNN "Vendorpart"
-	1    4950 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 4200 4650 4200
 Connection ~ 4650 4200
@@ -62,11 +47,6 @@ Wire Wire Line
 Connection ~ 5350 4200
 Wire Wire Line
 	5450 4200 5350 4200
-Connection ~ 4450 6800
-Wire Wire Line
-	4450 6800 4350 6800
-Wire Wire Line
-	4550 6800 4450 6800
 Connection ~ 4550 6800
 Wire Wire Line
 	4650 6800 4550 6800
@@ -490,12 +470,8 @@ Wire Wire Line
 Connection ~ 3400 5300
 Wire Wire Line
 	3400 5300 3250 5300
-NoConn ~ 3750 5700
-NoConn ~ 3750 5800
-NoConn ~ 3750 5900
-NoConn ~ 3750 6000
 Wire Wire Line
-	10200 5050 10200 5600
+	10200 5050 10200 5450
 $Comp
 L Connector:Micro_SD_Card_Det J3
 U 1 1 5D3E77AB
@@ -512,13 +488,6 @@ F 6 "114-00841-68-1-ND" H 11200 4950 50  0001 C CNN "Vendorpart"
 $EndComp
 Wire Wire Line
 	12000 5450 12100 5450
-Wire Wire Line
-	12100 5450 12100 5600
-Wire Wire Line
-	12100 5600 10200 5600
-Connection ~ 10200 5600
-Wire Wire Line
-	10200 5600 10200 5750
 Connection ~ 9700 5500
 Wire Wire Line
 	9700 5500 9900 5500
@@ -568,7 +537,6 @@ Wire Wire Line
 	9950 4550 10300 4550
 NoConn ~ 9400 5600
 NoConn ~ 9400 5400
-NoConn ~ 10300 5450
 $Comp
 L mxenc:NVCC_SD2 #PWR0144
 U 1 1 5DC50CF4
@@ -593,4 +561,68 @@ F 3 "" H 9450 6050 50  0001 C CNN
 	1    9450 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 6800 4450 6800
+Wire Wire Line
+	4450 6800 4350 6800
+Connection ~ 4450 6800
+$Comp
+L mxenc:SDINBDG4-8G U5
+U 1 1 5D196F4B
+P 4950 5500
+F 0 "U5" H 3707 5546 50  0000 R CNN
+F 1 "SDINBDG4-8G" H 3707 5455 50  0000 R CNN
+F 2 "mxenc:BGA153C50P14X14_1300X1150X80N" H 4950 5500 50  0001 L BNN
+F 3 "" H 4950 5500 50  0001 L BNN
+F 4 "SanDisk" H 4950 5500 50  0001 C CNN "Mfgr"
+F 5 "SDINBDG4-8G-I1" H 4950 5500 50  0001 C CNN "Part"
+F 6 "Mouser" H 4950 5500 50  0001 C CNN "Vendor"
+F 7 "467-SDINBDG4-8G-I1" H 4950 5500 50  0001 C CNN "Vendorpart"
+	1    4950 5500
+	1    0    0    -1  
+$EndComp
+Text Label 3750 4500 2    50   ~ 0
+RFU1
+Text Label 3750 4600 2    50   ~ 0
+RFU2
+Text Label 3750 4800 2    50   ~ 0
+RFU4
+Text Label 3750 5600 2    50   ~ 0
+VSF0
+Text Label 3750 5700 2    50   ~ 0
+VSF1
+Text Label 3750 5800 2    50   ~ 0
+VSF2
+Text Label 3750 5900 2    50   ~ 0
+VSF3
+Text Label 3750 6000 2    50   ~ 0
+VSF4
+Text Label 3750 6100 2    50   ~ 0
+VSF5
+Text Label 3750 6200 2    50   ~ 0
+VSF6
+Text Label 6150 6200 0    50   ~ 0
+QRDY
+Text Label 3750 4700 2    50   ~ 0
+RFU3
+Text Label 3500 5000 2    50   ~ 0
+EMMC_VDDI
+Wire Wire Line
+	10300 5450 10200 5450
+Connection ~ 10200 5450
+Wire Wire Line
+	10200 5450 10200 5750
+$Comp
+L power:GND #PWR0150
+U 1 1 5E2D7AF8
+P 12100 5750
+F 0 "#PWR0150" H 12100 5500 50  0001 C CNN
+F 1 "GND" H 12105 5577 50  0000 C CNN
+F 2 "" H 12100 5750 50  0001 C CNN
+F 3 "" H 12100 5750 50  0001 C CNN
+	1    12100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 5450 12100 5750
 $EndSCHEMATC
