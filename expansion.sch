@@ -213,4 +213,28 @@ Wire Wire Line
 	3000 1500 2750 1500
 Text GLabel 3000 1500 2    50   Input ~ 0
 GPIO3[5]
+Text Label 2750 2300 0    50   ~ 0
+GPIO3[13]
+Text Label 2750 2500 0    50   ~ 0
+GPIO3[15]
+Text Label 2750 2600 0    50   ~ 0
+GPIO3[16]
+Text Label 2750 1200 0    50   ~ 0
+GPIO3[2]
+Text Label 2750 1000 0    50   ~ 0
+GPIO3[0]
+Text Label 2750 1900 0    50   ~ 0
+GPIO3[9]
+Text Label 4550 4150 2    50   ~ 0
+GPIO3[0]
+Text Label 4550 4250 2    50   ~ 0
+GPIO3[9]
+Text Label 4550 3950 2    50   ~ 0
+GPIO3[13]
+Text Label 4550 3850 2    50   ~ 0
+GPIO3[15]
+Text Label 4550 3750 2    50   ~ 0
+GPIO3[16]
+Text Label 4550 4050 2    50   ~ 0
+GPIO3[2]
 $EndSCHEMATC
