@@ -210,15 +210,15 @@ $EndComp
 $Comp
 L mxenc:MIMX8MM6DVTLZAA U1
 U 11 1 5DDE75DF
-P 4550 5250
-F 0 "U1" H 4575 8115 50  0000 C CNN
-F 1 "IMX8MM" H 4575 8024 50  0000 C CNN
-F 2 "mxenc:BGA-729_27x27_14.0x14.0mm" H 4800 8000 50  0001 C CNN
-F 3 "" H 3800 8000 50  0001 C CNN
-F 4 "568-15276-ND" H 4550 5250 50  0000 C CNN "Vendorpart"
-F 5 "NXP" H 4550 5250 50  0001 C CNN "Mfgr"
-F 6 "MIMX8MM6CVTKZAA" H 4550 5250 50  0001 C CNN "Part"
-	11   4550 5250
+P 4300 5250
+F 0 "U1" H 4325 8115 50  0000 C CNN
+F 1 "IMX8MM" H 4325 8024 50  0000 C CNN
+F 2 "mxenc:BGA-729_27x27_14.0x14.0mm" H 4550 8000 50  0001 C CNN
+F 3 "" H 3550 8000 50  0001 C CNN
+F 4 "568-15276-ND" H 4300 5250 50  0000 C CNN "Vendorpart"
+F 5 "NXP" H 4300 5250 50  0001 C CNN "Mfgr"
+F 6 "MIMX8MM6CVTKZAA" H 4300 5250 50  0001 C CNN "Part"
+	11   4300 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -227,16 +227,16 @@ Wire Wire Line
 	13100 7400 13350 7400
 Text Label 13100 7400 2    50   ~ 0
 USB1_VBUS_EN
-Text Label 3100 3900 2    50   ~ 0
+Text Label 2850 3900 2    50   ~ 0
 USB1_VBUS_EN
 Text Label 13100 7300 2    50   ~ 0
 USB1_VBUS_OC
-Text Label 3100 4000 2    50   ~ 0
+Text Label 2850 4000 2    50   ~ 0
 USB1_VBUS_OC
 Wire Wire Line
-	3100 4000 3300 4000
+	2850 4000 3050 4000
 Wire Wire Line
-	3100 3900 3300 3900
+	2850 3900 3050 3900
 $Comp
 L mxenc:VDD_1V8 #PWR0246
 U 1 1 5D7562D2
@@ -300,21 +300,21 @@ $EndComp
 $Comp
 L mxenc:MIMX8MM6DVTLZAA U1
 U 7 1 5D8D5047
-P 9050 1850
-F 0 "U1" H 9050 2650 50  0000 C CNN
-F 1 "IMX8MM" H 9000 2750 50  0000 C CNN
-F 2 "mxenc:BGA-729_27x27_14.0x14.0mm" H 9300 4600 50  0001 C CNN
-F 3 "" H 8300 4600 50  0001 C CNN
-F 4 "NXP" H 9050 1850 50  0001 C CNN "Mfgr"
-F 5 "MIMX8MM6CVTKZAA" H 9050 1850 50  0001 C CNN "Part"
-F 6 "568-15276-ND" H 9050 1850 50  0001 C CNN "Vendorpart"
-	7    9050 1850
+P 9200 2950
+F 0 "U1" H 9200 2100 50  0000 C CNN
+F 1 "IMX8MM" H 9200 2200 50  0000 C CNN
+F 2 "mxenc:BGA-729_27x27_14.0x14.0mm" H 9450 5700 50  0001 C CNN
+F 3 "" H 8450 5700 50  0001 C CNN
+F 4 "NXP" H 9200 2950 50  0001 C CNN "Mfgr"
+F 5 "MIMX8MM6CVTKZAA" H 9200 2950 50  0001 C CNN "Part"
+F 6 "568-15276-ND" H 9200 2950 50  0001 C CNN "Vendorpart"
+	7    9200 2950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10300 4250 10400 4250
+	10450 5350 10550 5350
 Wire Wire Line
-	10300 4150 10400 4150
+	10450 5250 10550 5250
 $Comp
 L mxenc:VDD_3V3 #PWR0250
 U 1 1 5D9C3369
@@ -384,11 +384,11 @@ Wire Wire Line
 	6450 1500 6650 1500
 Wire Wire Line
 	6650 1300 6450 1300
-Text Label 10400 4050 0    50   ~ 0
+Text Label 10550 5150 0    50   ~ 0
 LED_R
-Text Label 10400 4150 0    50   ~ 0
+Text Label 10550 5250 0    50   ~ 0
 LED_G
-Text Label 10400 4250 0    50   ~ 0
+Text Label 10550 5350 0    50   ~ 0
 LED_B
 $Comp
 L Connector_Generic:Conn_01x06 J4
@@ -405,28 +405,28 @@ F 6 "SM06B-GHS-TB(LF)(SN)" H 3700 1400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 4050 10400 4050
+	10450 5150 10550 5150
 Text Label 6450 1300 2    50   ~ 0
 LED_R
 Text Label 6450 1500 2    50   ~ 0
 LED_G
 Text Label 6450 1700 2    50   ~ 0
 LED_B
-Text Label 7300 9200 2    50   ~ 0
+Text Label 7900 2400 2    50   ~ 0
 UART2_TX
-Text Label 7300 9100 2    50   ~ 0
+Text Label 7900 2500 2    50   ~ 0
 UART2_RX
-Text Label 7300 8300 2    50   ~ 0
+Text Label 7900 2600 2    50   ~ 0
 UART2_RTS_B
-Text Label 7300 8400 2    50   ~ 0
+Text Label 7900 2700 2    50   ~ 0
 UART2_CTS_B
-Text Label 7750 3900 2    50   ~ 0
+Text Label 7900 3150 2    50   ~ 0
 UART1_TX
-Text Label 7750 3800 2    50   ~ 0
+Text Label 7900 3050 2    50   ~ 0
 UART1_RX
-Text Label 7750 3700 2    50   ~ 0
+Text Label 7900 2950 2    50   ~ 0
 UART1_RTS_B
-Text Label 7750 3600 2    50   ~ 0
+Text Label 7900 2850 2    50   ~ 0
 UART1_CTS_B
 Text Label 2050 1400 2    50   ~ 0
 UART1_TX
@@ -523,22 +523,20 @@ Text Label 5200 1700 2    50   ~ 0
 UART2_CTS_B
 Wire Wire Line
 	4600 1200 5200 1200
-NoConn ~ 5850 2950
-NoConn ~ 5850 3050
-NoConn ~ 5850 3550
-NoConn ~ 5850 3650
-NoConn ~ 5850 3950
-NoConn ~ 5850 4050
-NoConn ~ 5850 4150
-NoConn ~ 5850 4250
-NoConn ~ 5850 4350
-NoConn ~ 5850 4450
-NoConn ~ 3300 3800
-NoConn ~ 3300 3700
-NoConn ~ 3300 3400
-NoConn ~ 3300 3300
-NoConn ~ 3300 3200
-NoConn ~ 3300 3100
+NoConn ~ 5600 3550
+NoConn ~ 5600 3650
+NoConn ~ 5600 3950
+NoConn ~ 5600 4050
+NoConn ~ 5600 4150
+NoConn ~ 5600 4250
+NoConn ~ 5600 4350
+NoConn ~ 5600 4450
+NoConn ~ 3050 3800
+NoConn ~ 3050 3700
+NoConn ~ 3050 3400
+NoConn ~ 3050 3300
+NoConn ~ 3050 3200
+NoConn ~ 3050 3100
 Wire Wire Line
 	2000 1200 2050 1200
 Wire Wire Line
@@ -547,10 +545,10 @@ Text Label 13050 4550 2    50   ~ 0
 WDOG_B
 Wire Wire Line
 	13050 4550 13350 4550
-Text Label 6000 3150 0    50   ~ 0
+Text Label 5750 3150 0    50   ~ 0
 WDOG_B
 Wire Wire Line
-	6000 3150 5850 3150
+	5750 3150 5600 3150
 Text Label 13050 4650 2    50   ~ 0
 PMIC_ON_REQ
 Wire Wire Line
@@ -559,19 +557,19 @@ Text Label 15550 4350 0    50   ~ 0
 PMIC_nINT
 Wire Wire Line
 	15550 4350 15400 4350
-Text Label 6000 3250 0    50   ~ 0
+Text Label 5750 3250 0    50   ~ 0
 PMIC_nINT
 Wire Wire Line
-	6000 3250 5850 3250
-NoConn ~ 5850 3450
+	5750 3250 5600 3250
+NoConn ~ 5600 3450
 Text Label 13050 4150 2    50   ~ 0
 SD2_VSEL
 Wire Wire Line
 	13050 4150 13350 4150
-Text Label 6000 3350 0    50   ~ 0
+Text Label 5750 3350 0    50   ~ 0
 SD2_VSEL
 Wire Wire Line
-	5850 3350 6000 3350
+	5600 3350 5750 3350
 Text Label 13000 6100 2    50   ~ 0
 PCIE_RSTB
 Wire Wire Line
@@ -580,9 +578,9 @@ Text Label 13000 6200 2    50   ~ 0
 PCIE_DISB
 Wire Wire Line
 	13000 6200 13350 6200
-Text Label 7750 4350 2    50   ~ 0
+Text Label 10450 4750 0    50   ~ 0
 PCIE_RSTB
-Text Label 7750 4450 2    50   ~ 0
+Text Label 10450 4850 0    50   ~ 0
 PCIE_DISB
 Text Label 13100 6850 2    50   ~ 0
 LD1_~INT
@@ -1159,13 +1157,13 @@ Wire Wire Line
 	5100 6900 5700 6900
 Text Notes 4200 6300 0    50   ~ 0
 BOOT_MODE[1:0] == 00 :: Boot from fuses\nBOOT_MODE[1:0] == 01 :: Serial downloader
-Text Notes 7200 7050 0    50   ~ 0
+Text Notes 6750 7850 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
 Text Label 6000 6600 0    50   ~ 0
 BTN0
-Text Notes 2450 4200 0    35   ~ 0
+Text Notes 2200 4200 0    35   ~ 0
 EN - output, 3.3v push-pull\nOC - input, internal pull-up
-Text Notes 6050 2950 0    35   ~ 0
+Text Notes 6200 3350 0    35   ~ 0
 WDOG - input, internal pull-up\nnINT - input, internal pull-up\nVSEL - output, 1.8v push-pull
 Wire Wire Line
 	15400 7100 15650 7100
@@ -1212,8 +1210,6 @@ U 5E34BAA5
 F0 "Expansion" 50
 F1 "expansion.sch" 50
 $EndSheet
-NoConn ~ 7300 8300
-NoConn ~ 7300 8400
 Wire Wire Line
 	5550 7100 5100 7100
 Text GLabel 5100 7250 2    50   Input ~ 0
@@ -1228,8 +1224,6 @@ Text GLabel 5100 7650 2    50   Input ~ 0
 JTAG_TRST_B
 Text GLabel 5100 7750 2    50   Input ~ 0
 JTAG_MOD
-Text GLabel 8350 1150 0    50   Input ~ 0
-GPIO3[12]
 Wire Wire Line
 	8350 1150 8450 1150
 Connection ~ 8450 1150
@@ -1281,15 +1275,13 @@ Wire Wire Line
 	9750 1650 9750 1500
 Text Label 9950 1150 2    50   ~ 0
 BTN1
-Text GLabel 9650 1150 0    50   Input ~ 0
-GPIO3[5]
 Wire Wire Line
 	9650 1150 9750 1150
 Connection ~ 9750 1150
 Wire Wire Line
 	9750 1150 9950 1150
-NoConn ~ 5850 3750
-NoConn ~ 5850 3850
+NoConn ~ 5600 3750
+NoConn ~ 5600 3850
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5E7E0B84
@@ -1304,4 +1296,50 @@ F 6 "EVQ-P7C01P" H 10150 1150 50  0001 C CNN "Part"
 	1    10150 1150
 	1    0    0    -1  
 $EndComp
+Text GLabel 5600 2950 2    50   Input ~ 0
+GPIO1[0]
+Text GLabel 5600 3050 2    50   Input ~ 0
+GPIO1[1]
+Text GLabel 7900 3450 0    50   Input ~ 0
+SAI1_TXD7
+Text GLabel 7900 3550 0    50   Input ~ 0
+SAI1_TXD6
+Text GLabel 7900 3650 0    50   Input ~ 0
+SAI1_TXD5
+Text GLabel 7900 3750 0    50   Input ~ 0
+SAI1_TXD4
+Text GLabel 7900 3850 0    50   Input ~ 0
+SAI1_TXD3
+Text GLabel 7900 3950 0    50   Input ~ 0
+SAI1_TXD2
+Text GLabel 7900 4050 0    50   Input ~ 0
+SAI1_TXD1
+Text GLabel 7900 4150 0    50   Input ~ 0
+SAI1_TXD0
+Text GLabel 7900 4250 0    50   Input ~ 0
+SAI1_RXD7
+Text GLabel 7900 4350 0    50   Input ~ 0
+SAI1_RXD6
+Text GLabel 7900 4450 0    50   Input ~ 0
+SAI1_RXD5
+Text GLabel 7900 4550 0    50   Input ~ 0
+SAI1_RXD4
+Text GLabel 7900 4650 0    50   Input ~ 0
+SAI1_RXD3
+Text GLabel 7900 4750 0    50   Input ~ 0
+SAI1_RXD2
+Text GLabel 7900 4850 0    50   Input ~ 0
+SAI1_RXC
+Text GLabel 7900 4950 0    50   Input ~ 0
+SAI1_RXFS
+Text GLabel 7900 5050 0    50   Input ~ 0
+SAI1_RXD1
+Text GLabel 7900 5150 0    50   Input ~ 0
+SAI1_RXD0
+Text GLabel 7900 5250 0    50   Input ~ 0
+SAI1_TXC
+Text GLabel 7900 5350 0    50   Input ~ 0
+SAI1_TXFS
+Text GLabel 7900 5450 0    50   Input ~ 0
+SAI1_MCLK
 $EndSCHEMATC
