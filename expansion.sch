@@ -342,4 +342,28 @@ Text Label 4550 2850 2    50   ~ 0
 GPIO3[10]
 Text Label 4550 2950 2    50   ~ 0
 GPIO3[11]
+Text GLabel 2750 1800 2    50   Input ~ 0
+BTN0
+Text GLabel 2750 1900 2    50   Input ~ 0
+BTN1
+Text GLabel 5050 2950 2    50   Input ~ 0
+USB2_OC
+Text GLabel 5050 3050 2    50   Input ~ 0
+USB2_PWR_EN
+Text GLabel 4550 5150 0    50   Input ~ 0
+ECSPI2_SCLK
+Text GLabel 4550 5450 0    50   Input ~ 0
+ECSPI2_MISO
+Text GLabel 4550 5350 0    50   Input ~ 0
+ECSPI2_MOSI
+Text GLabel 4550 5250 0    50   Input ~ 0
+ECSPI2_SS0
+Text GLabel 4550 4750 0    50   Input ~ 0
+ECSPI1_SCLK
+Text GLabel 4550 5050 0    50   Input ~ 0
+ECSPI1_MISO
+Text GLabel 4550 4950 0    50   Input ~ 0
+ECSPI1_MOSI
+Text GLabel 4550 4850 0    50   Input ~ 0
+ECSPI1_SS0
 $EndSCHEMATC

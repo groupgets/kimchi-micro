@@ -29,7 +29,7 @@ F 6 "EVQ-P7C01P" H 8800 1150 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J6
+L mxenc:JST-GH-6 J6
 U 1 1 5CB89AB0
 P 2250 1400
 F 0 "J6" H 2330 1392 50  0000 L CNN
@@ -88,17 +88,15 @@ F0 "USB" 50
 F1 "USB.sch" 50
 F2 "LD1_~INT" I L 13350 6850 50 
 F3 "USB1_VBUS_IN" O L 13350 6950 50 
-F4 "USB1_VBUS_OC" O L 13350 7300 50 
-F5 "USB1_VBUS_EN" I L 13350 7400 50 
-F6 "DP_IRQ" O R 15400 6900 50 
-F7 "DP_EN" I R 15400 7000 50 
-F8 "DP_SCL" I R 15400 7100 50 
-F9 "DP_SDA" B R 15400 7200 50 
-F10 "USB2_SCL" I R 15400 7350 50 
-F11 "USB2_SDA" B R 15400 7450 50 
-F12 "USB1_PWR_SDA" B R 15400 7700 50 
-F13 "USB1_PWR_SCL" I R 15400 7600 50 
-F14 "DP_SUSP" I L 13350 7600 50 
+F4 "DP_IRQ" O R 15400 6900 50 
+F5 "DP_EN" I R 15400 7000 50 
+F6 "DP_SCL" I R 15400 7100 50 
+F7 "DP_SDA" B R 15400 7200 50 
+F8 "USB2_SCL" I R 15400 7350 50 
+F9 "USB2_SDA" B R 15400 7450 50 
+F10 "USB1_PWR_SDA" B R 15400 7700 50 
+F11 "USB1_PWR_SCL" I R 15400 7600 50 
+F12 "DP_SUSP" I L 13350 7600 50 
 $EndSheet
 $Sheet
 S 11000 1300 1950 800 
@@ -222,21 +220,9 @@ F 6 "MIMX8MM6CVTKZAA" H 4300 5250 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13100 7300 13350 7300
+	6150 4900 6400 4900
 Wire Wire Line
-	13100 7400 13350 7400
-Text Label 13100 7400 2    50   ~ 0
-USB1_VBUS_EN
-Text Label 2850 3900 2    50   ~ 0
-USB1_VBUS_EN
-Text Label 13100 7300 2    50   ~ 0
-USB1_VBUS_OC
-Text Label 2850 4000 2    50   ~ 0
-USB1_VBUS_OC
-Wire Wire Line
-	2850 4000 3050 4000
-Wire Wire Line
-	2850 3900 3050 3900
+	6150 5000 6400 5000
 $Comp
 L mxenc:VDD_1V8 #PWR0246
 U 1 1 5D7562D2
@@ -391,7 +377,7 @@ LED_G
 Text Label 10550 5350 0    50   ~ 0
 LED_B
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L mxenc:JST-GH-6 J4
 U 1 1 5DBDD2F9
 P 3700 1400
 F 0 "J4" H 3780 1392 50  0000 L CNN
@@ -526,17 +512,8 @@ Wire Wire Line
 NoConn ~ 5600 3550
 NoConn ~ 5600 3650
 NoConn ~ 5600 3950
-NoConn ~ 5600 4050
 NoConn ~ 5600 4150
 NoConn ~ 5600 4250
-NoConn ~ 5600 4350
-NoConn ~ 5600 4450
-NoConn ~ 3050 3800
-NoConn ~ 3050 3700
-NoConn ~ 3050 3400
-NoConn ~ 3050 3300
-NoConn ~ 3050 3200
-NoConn ~ 3050 3100
 Wire Wire Line
 	2000 1200 2050 1200
 Wire Wire Line
@@ -1161,7 +1138,7 @@ Text Notes 6750 7850 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
 Text Label 6000 6600 0    50   ~ 0
 BTN0
-Text Notes 2200 4200 0    35   ~ 0
+Text Notes 5700 4700 0    35   ~ 0
 EN - output, 3.3v push-pull\nOC - input, internal pull-up
 Text Notes 6200 3350 0    35   ~ 0
 WDOG - input, internal pull-up\nnINT - input, internal pull-up\nVSEL - output, 1.8v push-pull
@@ -1342,4 +1319,58 @@ Text GLabel 7900 5350 0    50   Input ~ 0
 SAI1_TXFS
 Text GLabel 7900 5450 0    50   Input ~ 0
 SAI1_MCLK
+Text GLabel 8350 1150 0    50   Input ~ 0
+BTN0
+Text GLabel 9650 1150 0    50   Input ~ 0
+BTN1
+Text Label 5600 4350 0    50   ~ 0
+USB2_OTG_PWR
+Text Label 5600 4450 0    50   ~ 0
+USB2_OTG_OC
+Text Label 6150 5000 2    50   ~ 0
+USB2_OTG_PWR
+Text Label 6150 4900 2    50   ~ 0
+USB2_OTG_OC
+Text GLabel 6400 4900 2    50   Input ~ 0
+USB2_OC
+Text GLabel 6400 5000 2    50   Input ~ 0
+USB2_PWR_EN
+Text GLabel 3050 3700 0    50   Input ~ 0
+ECSPI2_SCLK
+Text GLabel 3050 3800 0    50   Input ~ 0
+ECSPI2_MISO
+Text GLabel 3050 3900 0    50   Input ~ 0
+ECSPI2_MOSI
+Text GLabel 3050 4000 0    50   Input ~ 0
+ECSPI2_SS0
+Text GLabel 3050 3100 0    50   Input ~ 0
+ECSPI1_SCLK
+Text GLabel 3050 3200 0    50   Input ~ 0
+ECSPI1_MISO
+Text GLabel 3050 3300 0    50   Input ~ 0
+ECSPI1_MOSI
+Text GLabel 3050 3400 0    50   Input ~ 0
+ECSPI1_SS0
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A80D8
+P 2400 1450
+F 0 "#PWR?" H 2400 1200 50  0001 C CNN
+F 1 "GND" H 2405 1277 50  0000 C CNN
+F 2 "" H 2400 1450 50  0001 C CNN
+F 3 "" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A97FE
+P 3850 1450
+F 0 "#PWR?" H 3850 1200 50  0001 C CNN
+F 1 "GND" H 3855 1277 50  0000 C CNN
+F 2 "" H 3850 1450 50  0001 C CNN
+F 3 "" H 3850 1450 50  0001 C CNN
+	1    3850 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

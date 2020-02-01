@@ -6,6 +6,12 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Bus_PCI_Express_Mini
+D Mini-PCI Express bus connector
+K mini pcie
+F ~
+$ENDCMP
+#
 $CMP CYPD4155-96BZXI
 D CCG4M Single Port USB Controller + Mux
 $ENDCMP
@@ -13,6 +19,12 @@ $ENDCMP
 $CMP DCDC_5V
 D Power flag
 K power-flag
+$ENDCMP
+#
+$CMP JST-GH-6
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP NVCC_1V8

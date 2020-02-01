@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Bus_PCI_Express_Mini J?
+L mxenc:Bus_PCI_Express_Mini J?
 U 1 1 5D31B8E0
 P 7350 3750
 AR Path="/5D31B8E0" Ref="J?"  Part="1" 
