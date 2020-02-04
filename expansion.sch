@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -346,9 +346,9 @@ Text GLabel 2750 1800 2    50   Input ~ 0
 BTN0
 Text GLabel 2750 1900 2    50   Input ~ 0
 BTN1
-Text GLabel 5050 2950 2    50   Input ~ 0
+Text GLabel 7250 4850 2    50   Input ~ 0
 USB2_OC
-Text GLabel 5050 3050 2    50   Input ~ 0
+Text GLabel 7250 4950 2    50   Input ~ 0
 USB2_PWR_EN
 Text GLabel 4550 5150 0    50   Input ~ 0
 ECSPI2_SCLK
@@ -366,4 +366,154 @@ Text GLabel 4550 4950 0    50   Input ~ 0
 ECSPI1_MOSI
 Text GLabel 4550 4850 0    50   Input ~ 0
 ECSPI1_SS0
+Text GLabel 4550 4650 0    50   Input ~ 0
+I2C1_SCL
+Text GLabel 4550 4550 0    50   Input ~ 0
+I2C1_SDA
+Text GLabel 4550 4350 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 4550 4150 0    50   Input ~ 0
+I2C3_SDA
+Text GLabel 4550 3950 0    50   Input ~ 0
+I2C4_SDA
+Text GLabel 4550 4450 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 4550 4250 0    50   Input ~ 0
+I2C3_SCL
+Text GLabel 4550 4050 0    50   Input ~ 0
+I2C4_SCL
+Text GLabel 5050 3250 2    50   Input ~ 0
+UIM_RESET_N
+Text GLabel 5050 3150 2    50   Input ~ 0
+UIM_CLK
+Text GLabel 5050 3050 2    50   Input ~ 0
+UIM_DATA
+Text GLabel 5050 2950 2    50   Input ~ 0
+UIM_PWR
+Text GLabel 5050 3350 2    50   Input ~ 0
+UIM_VPP
+$Comp
+L power:GND #PWR0219
+U 1 1 5F4229EE
+P 5600 3550
+F 0 "#PWR0219" H 5600 3300 50  0001 C CNN
+F 1 "GND" H 5605 3377 50  0000 C CNN
+F 2 "" H 5600 3550 50  0001 C CNN
+F 3 "" H 5600 3550 50  0001 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3550 5600 3450
+Wire Wire Line
+	5600 3450 5050 3450
+$Comp
+L mxenc:VDD_5V #PWR0220
+U 1 1 5F42799C
+P 4000 3100
+F 0 "#PWR0220" H 4000 2950 50  0001 C CNN
+F 1 "VDD_5V" H 4015 3273 50  0000 C CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3100 4000 3150
+Wire Wire Line
+	4000 3150 4550 3150
+Wire Wire Line
+	4550 3450 4000 3450
+Wire Wire Line
+	4000 3450 4000 3350
+Connection ~ 4000 3150
+Wire Wire Line
+	4550 3350 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	4000 3350 4000 3250
+Wire Wire Line
+	4550 3250 4000 3250
+Connection ~ 4000 3250
+Wire Wire Line
+	4000 3250 4000 3150
+$Comp
+L power:GND #PWR0221
+U 1 1 5F42D118
+P 4000 3900
+F 0 "#PWR0221" H 4000 3650 50  0001 C CNN
+F 1 "GND" H 4005 3727 50  0000 C CNN
+F 2 "" H 4000 3900 50  0001 C CNN
+F 3 "" H 4000 3900 50  0001 C CNN
+	1    4000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3850 4000 3850
+Wire Wire Line
+	4000 3850 4000 3900
+Wire Wire Line
+	4550 3750 4000 3750
+Wire Wire Line
+	4000 3750 4000 3850
+Connection ~ 4000 3850
+Wire Wire Line
+	4550 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 3750
+Connection ~ 4000 3750
+Wire Wire Line
+	4550 3550 4000 3550
+Wire Wire Line
+	4000 3550 4000 3650
+Connection ~ 4000 3650
+$Comp
+L power:GND #PWR0222
+U 1 1 5F468948
+P 7950 4800
+F 0 "#PWR0222" H 7950 4550 50  0001 C CNN
+F 1 "GND" H 7955 4627 50  0000 C CNN
+F 2 "" H 7950 4800 50  0001 C CNN
+F 3 "" H 7950 4800 50  0001 C CNN
+	1    7950 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4800 7950 4750
+Wire Wire Line
+	7950 4750 7250 4750
+Wire Wire Line
+	7250 4650 7950 4650
+Wire Wire Line
+	7950 4650 7950 4750
+Connection ~ 7950 4750
+$Comp
+L mxenc:VDD_1V8 #PWR0223
+U 1 1 5F46F757
+P 7950 4300
+F 0 "#PWR0223" H 7950 4150 50  0001 C CNN
+F 1 "VDD_1V8" H 7965 4473 50  0000 C CNN
+F 2 "" H 7950 4300 50  0001 C CNN
+F 3 "" H 7950 4300 50  0001 C CNN
+	1    7950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4300 7950 4350
+Wire Wire Line
+	7950 4550 7250 4550
+Wire Wire Line
+	7250 4450 7950 4450
+Connection ~ 7950 4450
+Wire Wire Line
+	7950 4450 7950 4550
+Wire Wire Line
+	7950 4350 7250 4350
+Connection ~ 7950 4350
+Wire Wire Line
+	7950 4350 7950 4450
+Text GLabel 7250 2550 2    50   Input ~ 0
+PCIE_USB_D_N
+Text GLabel 7250 2650 2    50   Input ~ 0
+PCIE_USB_D_P
 $EndSCHEMATC

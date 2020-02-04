@@ -457,21 +457,12 @@ Wire Wire Line
 	7800 2400 7350 2400
 Wire Wire Line
 	7350 2400 7350 2550
-NoConn ~ 8050 2750
-NoConn ~ 8050 2850
 Wire Wire Line
 	5250 2850 6650 2850
 Wire Wire Line
 	5250 2750 6650 2750
 NoConn ~ 6650 2950
 NoConn ~ 6650 3050
-NoConn ~ 6650 4350
-NoConn ~ 6650 4450
-NoConn ~ 8050 2950
-NoConn ~ 8050 3050
-NoConn ~ 8050 3150
-NoConn ~ 8050 3250
-NoConn ~ 8050 3350
 $Comp
 L power:GND #PWR0198
 U 1 1 5D779D7D
@@ -526,4 +517,20 @@ Text HLabel 5250 2850 0    50   Input ~ 0
 PCIE_DISB
 Text HLabel 5250 2750 0    50   Input ~ 0
 PCIE_RSTB
+NoConn ~ 8050 2750
+NoConn ~ 8050 2850
+Text GLabel 8050 2950 2    50   Input ~ 0
+UIM_RESET_N
+Text GLabel 8050 3050 2    50   Input ~ 0
+UIM_CLK
+Text GLabel 8050 3150 2    50   Input ~ 0
+UIM_DATA
+Text GLabel 8050 3250 2    50   Input ~ 0
+UIM_PWR
+Text GLabel 8050 3350 2    50   Input ~ 0
+UIM_VPP
+Text GLabel 6650 4350 0    50   Input ~ 0
+PCIE_USB_D_N
+Text GLabel 6650 4450 0    50   Input ~ 0
+PCIE_USB_D_P
 $EndSCHEMATC

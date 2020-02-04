@@ -82,23 +82,6 @@ F4 "PCIE_RSTB" I L 13350 6100 50
 F5 "PCIE_DISB" I L 13350 6200 50 
 $EndSheet
 $Sheet
-S 13350 6750 2050 1050
-U 5D6742B7
-F0 "USB" 50
-F1 "USB.sch" 50
-F2 "LD1_~INT" I L 13350 6850 50 
-F3 "USB1_VBUS_IN" O L 13350 6950 50 
-F4 "DP_IRQ" O R 15400 6900 50 
-F5 "DP_EN" I R 15400 7000 50 
-F6 "DP_SCL" I R 15400 7100 50 
-F7 "DP_SDA" B R 15400 7200 50 
-F8 "USB2_SCL" I R 15400 7350 50 
-F9 "USB2_SDA" B R 15400 7450 50 
-F10 "USB1_PWR_SDA" B R 15400 7700 50 
-F11 "USB1_PWR_SCL" I R 15400 7600 50 
-F12 "DP_SUSP" I L 13350 7600 50 
-$EndSheet
-$Sheet
 S 11000 1300 1950 800 
 U 5DC6F4F1
 F0 "Power" 50
@@ -563,14 +546,6 @@ Text Label 13100 6850 2    50   ~ 0
 LD1_~INT
 Wire Wire Line
 	13100 6850 13350 6850
-Text Label 15500 7000 0    50   ~ 0
-DP_EN
-Wire Wire Line
-	15500 7000 15400 7000
-Text Label 15500 6900 0    50   ~ 0
-DP_IRQ
-Wire Wire Line
-	15500 6900 15400 6900
 Text Label 13000 5850 2    50   ~ 0
 I2C3_SDA
 Text Label 13000 5750 2    50   ~ 0
@@ -583,26 +558,12 @@ Text Label 1700 3450 0    50   ~ 0
 I2C2_SCL
 Text Label 1700 3350 0    50   ~ 0
 I2C2_SDA
-Text Label 15650 7350 0    50   ~ 0
+Text Label 15550 7600 0    50   ~ 0
 I2C3_SCL
-Text Label 15650 7450 0    50   ~ 0
-I2C3_SDA
 Wire Wire Line
-	15500 7350 15400 7350
-Wire Wire Line
-	15500 7350 15500 7600
-Wire Wire Line
-	15500 7600 15400 7600
-Wire Wire Line
-	15550 7450 15400 7450
-Wire Wire Line
-	15550 7450 15550 7700
+	15550 7600 15400 7600
 Wire Wire Line
 	15550 7700 15400 7700
-Text Label 13100 7600 2    50   ~ 0
-DP_SUSP
-Wire Wire Line
-	13100 7600 13350 7600
 Wire Wire Line
 	10600 1450 11000 1450
 Text Label 10600 1450 0    50   ~ 0
@@ -1142,16 +1103,6 @@ Text Notes 5700 4700 0    35   ~ 0
 EN - output, 3.3v push-pull\nOC - input, internal pull-up
 Text Notes 6200 3350 0    35   ~ 0
 WDOG - input, internal pull-up\nnINT - input, internal pull-up\nVSEL - output, 1.8v push-pull
-Wire Wire Line
-	15400 7100 15650 7100
-Wire Wire Line
-	15400 7200 15650 7200
-Wire Wire Line
-	15650 7350 15500 7350
-Connection ~ 15500 7350
-Wire Wire Line
-	15550 7450 15650 7450
-Connection ~ 15550 7450
 $Comp
 L mxenc:VDD_3V3 #PWR0142
 U 1 1 5DC891CB
@@ -1166,10 +1117,6 @@ $EndComp
 Wire Wire Line
 	10600 7850 10600 7950
 Connection ~ 10600 7950
-Text Label 15650 7100 0    50   ~ 0
-I2C2_SCL
-Text Label 15650 7200 0    50   ~ 0
-I2C2_SDA
 $Comp
 L mxenc:GG_LOGO L8
 U 1 1 5DF62B5A
@@ -1352,10 +1299,10 @@ ECSPI1_MOSI
 Text GLabel 3050 3400 0    50   Input ~ 0
 ECSPI1_SS0
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0217
 U 1 1 5F2A80D8
 P 2400 1450
-F 0 "#PWR?" H 2400 1200 50  0001 C CNN
+F 0 "#PWR0217" H 2400 1200 50  0001 C CNN
 F 1 "GND" H 2405 1277 50  0000 C CNN
 F 2 "" H 2400 1450 50  0001 C CNN
 F 3 "" H 2400 1450 50  0001 C CNN
@@ -1363,14 +1310,58 @@ F 3 "" H 2400 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0218
 U 1 1 5F2A97FE
 P 3850 1450
-F 0 "#PWR?" H 3850 1200 50  0001 C CNN
+F 0 "#PWR0218" H 3850 1200 50  0001 C CNN
 F 1 "GND" H 3855 1277 50  0000 C CNN
 F 2 "" H 3850 1450 50  0001 C CNN
 F 3 "" H 3850 1450 50  0001 C CNN
 	1    3850 1450
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 13350 6750 2050 1050
+U 5D6742B7
+F0 "USB" 50
+F1 "USB.sch" 50
+F2 "LD1_~INT" I L 13350 6850 50 
+F3 "USB1_VBUS_IN" O L 13350 6950 50 
+F10 "USB1_PWR_SDA" B R 15400 7700 50 
+F11 "USB1_PWR_SCL" I R 15400 7600 50 
+$EndSheet
+Text Label 15550 7700 0    50   ~ 0
+I2C3_SDA
+Text Label 12350 8550 0    50   ~ 0
+I2C4_SDA
+Text Label 12350 8450 0    50   ~ 0
+I2C4_SCL
+Text Label 12350 8250 0    50   ~ 0
+I2C3_SDA
+Text Label 12350 8150 0    50   ~ 0
+I2C3_SCL
+Text Label 12350 7950 0    50   ~ 0
+I2C2_SDA
+Text Label 12350 7850 0    50   ~ 0
+I2C2_SCL
+Text Label 12350 7650 0    50   ~ 0
+I2C1_SDA
+Text Label 12350 7550 0    50   ~ 0
+I2C1_SCL
+Text GLabel 12350 7550 0    50   Input ~ 0
+I2C1_SCL
+Text GLabel 12350 7650 0    50   Input ~ 0
+I2C1_SDA
+Text GLabel 12350 7950 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 12350 8250 0    50   Input ~ 0
+I2C3_SDA
+Text GLabel 12350 8550 0    50   Input ~ 0
+I2C4_SDA
+Text GLabel 12350 7850 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 12350 8150 0    50   Input ~ 0
+I2C3_SCL
+Text GLabel 12350 8450 0    50   Input ~ 0
+I2C4_SCL
 $EndSCHEMATC
