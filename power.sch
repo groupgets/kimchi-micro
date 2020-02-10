@@ -73,20 +73,6 @@ F 6 "311-100KJRCT-ND" H 5700 3250 50  0001 C CNN "Vendorpart"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C91
-U 1 1 5DC98E6E
-P 2950 2650
-F 0 "C91" H 3065 2741 50  0000 L CNN
-F 1 "100uF" H 3065 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_6.3x5.8" H 2950 2650 50  0001 C CNN
-F 3 "~" H 2950 2650 50  0001 C CNN
-F 4 "PCE5016CT-ND" H 3065 2559 50  0000 L CNN "Vendorpart"
-F 5 "EEE-FT1V101AP" H 2950 2650 50  0001 C CNN "Part"
-F 6 "Panasonic" H 2950 2650 50  0001 C CNN "Mfgr"
-	1    2950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C92
 U 1 1 5DC993B7
 P 3350 2650
@@ -103,31 +89,17 @@ $EndComp
 $Comp
 L power:GND #PWR0164
 U 1 1 5DC99486
-P 2950 2900
-F 0 "#PWR0164" H 2950 2650 50  0001 C CNN
-F 1 "GND" H 2955 2727 50  0000 C CNN
-F 2 "" H 2950 2900 50  0001 C CNN
-F 3 "" H 2950 2900 50  0001 C CNN
-	1    2950 2900
+P 3350 2900
+F 0 "#PWR0164" H 3350 2650 50  0001 C CNN
+F 1 "GND" H 3355 2727 50  0000 C CNN
+F 2 "" H 3350 2900 50  0001 C CNN
+F 3 "" H 3350 2900 50  0001 C CNN
+	1    3350 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2900 2950 2850
-Wire Wire Line
-	3350 2800 3350 2850
-Wire Wire Line
-	3350 2850 2950 2850
-Connection ~ 2950 2850
-Wire Wire Line
-	2950 2850 2950 2800
-Wire Wire Line
-	2950 2500 2950 2400
-Connection ~ 2950 2400
-Wire Wire Line
 	3350 2500 3350 2400
 Connection ~ 3350 2400
-Wire Wire Line
-	3350 2400 2950 2400
 Wire Wire Line
 	4200 2550 4200 2400
 Connection ~ 4200 2400
@@ -196,8 +168,6 @@ Wire Wire Line
 Connection ~ 5450 3250
 Text Label 5750 2950 0    50   ~ 0
 VCC_3V6
-Wire Wire Line
-	2600 2400 2950 2400
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DC815A7
@@ -532,22 +502,6 @@ Wire Wire Line
 Connection ~ 10200 2900
 Wire Wire Line
 	10200 2900 9850 2900
-$Comp
-L Device:R R23
-U 1 1 5DD1DBCF
-P 10900 2400
-F 0 "R23" V 10693 2400 50  0000 C CNN
-F 1 "0" V 10784 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 10830 2400 50  0001 C CNN
-F 3 "~" H 10900 2400 50  0001 C CNN
-F 4 "Vishay Dale" H 10900 2400 50  0001 C CNN "Mfgr"
-F 5 "CRCW08050000Z0EAHP" H 10900 2400 50  0001 C CNN "Part"
-F 6 "541-0.0TBCT-ND" H 10900 2400 50  0001 C CNN "Vendorpart"
-	1    10900 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10550 2400 10750 2400
 Connection ~ 10550 2400
 Wire Wire Line
 	14150 2400 11250 2400
@@ -874,8 +828,6 @@ Wire Wire Line
 Connection ~ 12650 3050
 Wire Wire Line
 	12650 3050 12550 3050
-Text Label 9250 2400 0    50   ~ 0
-DCDC_5V_OUT
 $Comp
 L mxenc:VSYS_5V #PWR0179
 U 1 1 5D6815EB
@@ -1114,8 +1066,6 @@ F 3 "~" H 11150 2400 50  0001 C CNN
 $EndComp
 Connection ~ 11150 2400
 Wire Wire Line
-	11150 2400 11050 2400
-Wire Wire Line
 	2600 3500 2700 3500
 Wire Wire Line
 	2600 3600 2700 3600
@@ -1194,4 +1144,10 @@ Wire Wire Line
 	3850 2950 4200 2950
 Text Notes 12800 2750 0    50   ~ 0
 AON2405 is EOL. Possible replacement\nhttps://www.digikey.com/product-detail/en/0/785-AONR21305CTR-ND
+Wire Wire Line
+	2600 2400 3350 2400
+Wire Wire Line
+	3350 2800 3350 2900
+Wire Wire Line
+	10550 2400 11150 2400
 $EndSCHEMATC

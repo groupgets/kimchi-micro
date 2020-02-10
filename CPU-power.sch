@@ -999,8 +999,6 @@ F 3 "" H 8100 7400 50  0001 C CNN
 	1    8100 7400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7550 7400 7450 7400
 $Comp
 L mxenc:VDD_PHY_0V9 #PWR0137
 U 1 1 5D6A8004
@@ -2114,24 +2112,6 @@ Connection ~ 6850 7950
 Connection ~ 7100 7950
 Wire Wire Line
 	7100 7950 7350 7950
-$Comp
-L Device:R R38
-U 1 1 5DDBDDF9
-P 7700 7400
-F 0 "R38" V 7493 7400 50  0000 C CNN
-F 1 "0" V 7584 7400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7630 7400 50  0001 C CNN
-F 3 "~" H 7700 7400 50  0001 C CNN
-F 4 "Yageo" H 7700 7400 50  0001 C CNN "Mfgr"
-F 5 "RC0402JR-070RL" H 7700 7400 50  0001 C CNN "Part"
-F 6 "311-0.0JRCT-ND" H 7700 7400 50  0001 C CNN "Vendorpart"
-	1    7700 7400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7850 7400 8100 7400
-Text Label 6400 7400 0    50   ~ 0
-VDD_MIPI_1P2
 Wire Wire Line
 	6150 3550 6950 3550
 $Comp
@@ -2173,4 +2153,6 @@ $EndComp
 Connection ~ 7450 7400
 Wire Wire Line
 	7450 7400 7350 7400
+Wire Wire Line
+	7450 7400 8100 7400
 $EndSCHEMATC

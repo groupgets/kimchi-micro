@@ -182,18 +182,16 @@ F 3 "" H 7000 5700 50  0001 C CNN
 	1    7000 5700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 1100 2    50   Input ~ 0
+Text GLabel 4950 1250 2    50   Input ~ 0
 JTAG_TCK
-Text GLabel 5350 1200 2    50   Input ~ 0
+Text GLabel 4950 1150 2    50   Input ~ 0
 JTAG_TMS
-Text GLabel 5350 1300 2    50   Input ~ 0
+Text GLabel 4950 1450 2    50   Input ~ 0
 JTAG_TDI
-Text GLabel 5350 1400 2    50   Input ~ 0
+Text GLabel 4950 1350 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 5350 1500 2    50   Input ~ 0
+Text GLabel 4950 1550 2    50   Input ~ 0
 JTAG_TRST_B
-Text GLabel 5350 1600 2    50   Input ~ 0
-JTAG_MOD
 $Comp
 L mxenc:MIMX8MM6DVTLZAA U1
 U 8 1 5E66E0E3
@@ -483,7 +481,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4750 7250 4750
 Wire Wire Line
-	7250 4650 7950 4650
+	7250 4650 7850 4650
 Wire Wire Line
 	7950 4650 7950 4750
 Connection ~ 7950 4750
@@ -516,4 +514,71 @@ Text GLabel 7250 2550 2    50   Input ~ 0
 PCIE_USB_D_N
 Text GLabel 7250 2650 2    50   Input ~ 0
 PCIE_USB_D_P
+Text GLabel 7250 3950 2    50   Input ~ 0
+UART1_CTS_B
+Text GLabel 7250 3850 2    50   Input ~ 0
+UART1_RTS_B
+Text GLabel 7250 4050 2    50   Input ~ 0
+UART1_RX
+Text GLabel 7250 4150 2    50   Input ~ 0
+UART1_TX
+Wire Wire Line
+	7250 4250 7850 4250
+Wire Wire Line
+	7850 4250 7850 4650
+Connection ~ 7850 4650
+Wire Wire Line
+	7850 4650 7950 4650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J10
+U 1 1 5EC3A2D4
+P 4650 1350
+F 0 "J10" H 4700 1767 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4700 1676 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4650 1350 50  0001 C CNN
+F 3 "~" H 4650 1350 50  0001 C CNN
+	1    4650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0239
+U 1 1 5EC40863
+P 4100 1600
+F 0 "#PWR0239" H 4100 1350 50  0001 C CNN
+F 1 "GND" H 4105 1427 50  0000 C CNN
+F 2 "" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1600 4100 1550
+Wire Wire Line
+	4100 1350 4450 1350
+Wire Wire Line
+	4450 1250 4100 1250
+Wire Wire Line
+	4100 1250 4100 1350
+Connection ~ 4100 1350
+Wire Wire Line
+	4450 1550 4100 1550
+Connection ~ 4100 1550
+Wire Wire Line
+	4100 1550 4100 1350
+NoConn ~ 4450 1450
+$Comp
+L mxenc:VDD_1V8 #PWR0244
+U 1 1 5ED1315B
+P 4100 950
+F 0 "#PWR0244" H 4100 800 50  0001 C CNN
+F 1 "VDD_1V8" H 4115 1123 50  0000 C CNN
+F 2 "" H 4100 950 50  0001 C CNN
+F 3 "" H 4100 950 50  0001 C CNN
+	1    4100 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 950  4100 1150
+Wire Wire Line
+	4100 1150 4450 1150
 $EndSCHEMATC
