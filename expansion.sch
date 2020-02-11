@@ -310,15 +310,15 @@ Text GLabel 6750 5350 0    50   Input ~ 0
 SAI1_RXC
 Text GLabel 6750 5450 0    50   Input ~ 0
 SAI1_RXFS
-Text GLabel 7250 5350 2    50   Input ~ 0
+Text GLabel 7250 4950 2    50   Input ~ 0
 SAI1_RXD1
-Text GLabel 7250 5450 2    50   Input ~ 0
-SAI1_RXD0
-Text GLabel 7250 5150 2    50   Input ~ 0
-SAI1_TXC
 Text GLabel 7250 5050 2    50   Input ~ 0
+SAI1_RXD0
+Text GLabel 7250 4750 2    50   Input ~ 0
+SAI1_TXC
+Text GLabel 7250 4650 2    50   Input ~ 0
 SAI1_TXFS
-Text GLabel 7250 5250 2    50   Input ~ 0
+Text GLabel 7250 4850 2    50   Input ~ 0
 SAI1_MCLK
 Text Label 2750 2800 0    50   ~ 0
 GPIO3[18]
@@ -344,10 +344,6 @@ Text GLabel 2750 1800 2    50   Input ~ 0
 BTN0
 Text GLabel 2750 1900 2    50   Input ~ 0
 BTN1
-Text GLabel 7250 4850 2    50   Input ~ 0
-USB2_OC
-Text GLabel 7250 4950 2    50   Input ~ 0
-USB2_PWR_EN
 Text GLabel 4550 5150 0    50   Input ~ 0
 ECSPI2_SCLK
 Text GLabel 4550 5450 0    50   Input ~ 0
@@ -466,26 +462,6 @@ Wire Wire Line
 	4000 3550 4000 3650
 Connection ~ 4000 3650
 $Comp
-L power:GND #PWR0222
-U 1 1 5F468948
-P 7950 4800
-F 0 "#PWR0222" H 7950 4550 50  0001 C CNN
-F 1 "GND" H 7955 4627 50  0000 C CNN
-F 2 "" H 7950 4800 50  0001 C CNN
-F 3 "" H 7950 4800 50  0001 C CNN
-	1    7950 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 4800 7950 4750
-Wire Wire Line
-	7950 4750 7250 4750
-Wire Wire Line
-	7250 4650 7850 4650
-Wire Wire Line
-	7950 4650 7950 4750
-Connection ~ 7950 4750
-$Comp
 L mxenc:VDD_1V8 #PWR0223
 U 1 1 5F46F757
 P 7950 4300
@@ -514,21 +490,14 @@ Text GLabel 7250 2550 2    50   Input ~ 0
 PCIE_USB_D_N
 Text GLabel 7250 2650 2    50   Input ~ 0
 PCIE_USB_D_P
-Text GLabel 7250 3950 2    50   Input ~ 0
-UART1_CTS_B
-Text GLabel 7250 3850 2    50   Input ~ 0
-UART1_RTS_B
+Text GLabel 7250 3750 2    50   Input ~ 0
+UART3_TX
+Text GLabel 7250 3650 2    50   Input ~ 0
+UART3_RX
 Text GLabel 7250 4050 2    50   Input ~ 0
 UART1_RX
 Text GLabel 7250 4150 2    50   Input ~ 0
 UART1_TX
-Wire Wire Line
-	7250 4250 7850 4250
-Wire Wire Line
-	7850 4250 7850 4650
-Connection ~ 7850 4650
-Wire Wire Line
-	7850 4650 7950 4650
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J10
 U 1 1 5EC3A2D4
@@ -581,4 +550,12 @@ Wire Wire Line
 	4100 950  4100 1150
 Wire Wire Line
 	4100 1150 4450 1150
+Text GLabel 7250 5450 2    50   Input ~ 0
+GPIO1[9]
+Text GLabel 7250 5150 2    50   Input ~ 0
+GPIO1[11]
+Text GLabel 7250 5350 2    50   Input ~ 0
+GPIO1[14]
+Text GLabel 7250 5250 2    50   Input ~ 0
+GPIO1[15]
 $EndSCHEMATC

@@ -188,10 +188,6 @@ F 6 "MIMX8MM6CVTKZAA" H 4300 5250 50  0001 C CNN "Part"
 	11   4300 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 4900 6400 4900
-Wire Wire Line
-	6150 5000 6400 5000
 $Comp
 L mxenc:VDD_1V8 #PWR0246
 U 1 1 5D7562D2
@@ -367,22 +363,14 @@ Text Label 6450 1500 2    50   ~ 0
 LED_G
 Text Label 6450 1700 2    50   ~ 0
 LED_B
-Text Label 7900 2400 2    50   ~ 0
+Text Label 7300 9200 2    50   ~ 0
 UART2_TX
-Text Label 7900 2500 2    50   ~ 0
+Text Label 7300 9100 2    50   ~ 0
 UART2_RX
 Text Label 7900 2600 2    50   ~ 0
 UART2_RTS_B
 Text Label 7900 2700 2    50   ~ 0
 UART2_CTS_B
-Text Label 7900 3150 2    50   ~ 0
-UART1_TX
-Text Label 7900 3050 2    50   ~ 0
-UART1_RX
-Text Label 7900 2950 2    50   ~ 0
-UART1_RTS_B
-Text Label 7900 2850 2    50   ~ 0
-UART1_CTS_B
 Text Label 3500 1400 2    50   ~ 0
 UART2_TX
 Text Label 3500 1300 2    50   ~ 0
@@ -502,9 +490,9 @@ F0 "SD/MMC" 50
 F1 "SD_MMC.sch" 50
 $EndSheet
 Text Notes 3150 2200 0    50   ~ 0
-CONSOLE (Pixhawk debug JST-SH)
+A53 debug / UART2 (JST-SH)
 Text Notes 1650 2200 0    50   ~ 0
-UART1 (Pixhawk debug JST-SH)
+M4 debug / UART4 (JST-SH)
 Text Notes 800  7950 0    35   ~ 0
 From NXP ref design: Recommend to use external clock source,\nXTALO must be connected to NVCC_SNVS_1V8/2, or VDD_SNVS_0V8!
 Wire Wire Line
@@ -777,8 +765,6 @@ Text Label 11250 8900 0    50   ~ 0
 I2C1_SDA
 Text Label 11250 8800 0    50   ~ 0
 I2C1_SCL
-NoConn ~ 7300 8900
-NoConn ~ 7300 8800
 $Comp
 L mxenc:VDD_1V8 #PWR0225
 U 1 1 5D90ED2B
@@ -1123,7 +1109,6 @@ Connection ~ 9750 1150
 Wire Wire Line
 	9750 1150 9950 1150
 NoConn ~ 5600 3750
-NoConn ~ 5600 3850
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5E7E0B84
@@ -1188,18 +1173,6 @@ Text GLabel 8350 1150 0    50   Input ~ 0
 BTN0
 Text GLabel 9650 1150 0    50   Input ~ 0
 BTN1
-Text Label 5600 4350 0    50   ~ 0
-USB2_OTG_PWR
-Text Label 5600 4450 0    50   ~ 0
-USB2_OTG_OC
-Text Label 6150 5000 2    50   ~ 0
-USB2_OTG_PWR
-Text Label 6150 4900 2    50   ~ 0
-USB2_OTG_OC
-Text GLabel 6400 4900 2    50   Input ~ 0
-USB2_OC
-Text GLabel 6400 5000 2    50   Input ~ 0
-USB2_PWR_EN
 Text GLabel 3050 3700 0    50   Input ~ 0
 ECSPI2_SCLK
 Text GLabel 3050 3800 0    50   Input ~ 0
@@ -1346,7 +1319,7 @@ F 3 "" H 4950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4600 2200 0    50   ~ 0
-I2C (QWIIC JST-SH)
+QWIIC / I2C4 (JST-SH)
 $Comp
 L mxenc:NVCC_3V3 #PWR0235
 U 1 1 5E9DBD40
@@ -1422,22 +1395,6 @@ Text Label 7300 9700 2    50   ~ 0
 UART4_RX
 Text Label 7300 9800 2    50   ~ 0
 UART4_TX
-Text Label 6600 2600 2    50   ~ 0
-UART1_TX
-Text Label 6600 2500 2    50   ~ 0
-UART1_RX
-Text Label 6600 2400 2    50   ~ 0
-UART1_RTS_B
-Text Label 6600 2300 2    50   ~ 0
-UART1_CTS_B
-Text GLabel 6600 2300 2    50   Input ~ 0
-UART1_CTS_B
-Text GLabel 6600 2400 2    50   Input ~ 0
-UART1_RTS_B
-Text GLabel 6600 2500 2    50   Input ~ 0
-UART1_RX
-Text GLabel 6600 2600 2    50   Input ~ 0
-UART1_TX
 $Comp
 L Device:R R23
 U 1 1 5ECA9A27
@@ -1498,4 +1455,20 @@ F 3 "" H 6100 7250 50  0001 C CNN
 	1    6100 7250
 	1    0    0    -1  
 $EndComp
+Text GLabel 5600 3850 2    50   Input ~ 0
+GPIO1[9]
+Text GLabel 5600 4050 2    50   Input ~ 0
+GPIO1[11]
+Text GLabel 5600 4350 2    50   Input ~ 0
+GPIO1[14]
+Text GLabel 5600 4450 2    50   Input ~ 0
+GPIO1[15]
+Text GLabel 7300 8800 0    50   Input ~ 0
+UART1_RX
+Text GLabel 7300 8900 0    50   Input ~ 0
+UART1_TX
+Text GLabel 7300 9400 0    50   Input ~ 0
+UART3_RX
+Text GLabel 7300 9500 0    50   Input ~ 0
+UART3_TX
 $EndSCHEMATC
