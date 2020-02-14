@@ -207,10 +207,6 @@ Text Label 2750 2300 0    50   ~ 0
 GPIO3[13]
 Text Label 2750 2700 0    50   ~ 0
 GPIO3[17]
-Text GLabel 6550 6000 0    50   Input ~ 0
-GPIO1[0]
-Text GLabel 6550 6100 0    50   Input ~ 0
-GPIO1[1]
 $Comp
 L mxenc:MIMX8MM6DVTLZAA U1
 U 10 1 5EACF487
@@ -278,48 +274,6 @@ Text Label 6750 2950 2    50   ~ 0
 ENET_RD2
 Text Label 6750 2750 2    50   ~ 0
 ENET_RD3
-Text GLabel 6750 3950 0    50   Input ~ 0
-SAI1_TXD7
-Text GLabel 6750 4050 0    50   Input ~ 0
-SAI1_TXD6
-Text GLabel 6750 4150 0    50   Input ~ 0
-SAI1_TXD5
-Text GLabel 6750 4250 0    50   Input ~ 0
-SAI1_TXD4
-Text GLabel 6750 4350 0    50   Input ~ 0
-SAI1_TXD3
-Text GLabel 6750 4450 0    50   Input ~ 0
-SAI1_TXD2
-Text GLabel 6750 4550 0    50   Input ~ 0
-SAI1_TXD1
-Text GLabel 6750 4650 0    50   Input ~ 0
-SAI1_TXD0
-Text GLabel 6750 4750 0    50   Input ~ 0
-SAI1_RXD7
-Text GLabel 6750 4850 0    50   Input ~ 0
-SAI1_RXD6
-Text GLabel 6750 4950 0    50   Input ~ 0
-SAI1_RXD5
-Text GLabel 6750 5050 0    50   Input ~ 0
-SAI1_RXD4
-Text GLabel 6750 5150 0    50   Input ~ 0
-SAI1_RXD3
-Text GLabel 6750 5250 0    50   Input ~ 0
-SAI1_RXD2
-Text GLabel 6750 5350 0    50   Input ~ 0
-SAI1_RXC
-Text GLabel 6750 5450 0    50   Input ~ 0
-SAI1_RXFS
-Text GLabel 7250 4950 2    50   Input ~ 0
-SAI1_RXD1
-Text GLabel 7250 5050 2    50   Input ~ 0
-SAI1_RXD0
-Text GLabel 7250 4750 2    50   Input ~ 0
-SAI1_TXC
-Text GLabel 7250 4650 2    50   Input ~ 0
-SAI1_TXFS
-Text GLabel 7250 4850 2    50   Input ~ 0
-SAI1_MCLK
 Text Label 2750 2800 0    50   ~ 0
 GPIO3[18]
 Text Label 2750 2200 0    50   ~ 0
@@ -464,28 +418,28 @@ Connection ~ 4000 3650
 $Comp
 L mxenc:VDD_1V8 #PWR0223
 U 1 1 5F46F757
-P 7950 4300
-F 0 "#PWR0223" H 7950 4150 50  0001 C CNN
-F 1 "VDD_1V8" H 7965 4473 50  0000 C CNN
-F 2 "" H 7950 4300 50  0001 C CNN
-F 3 "" H 7950 4300 50  0001 C CNN
-	1    7950 4300
+P 8100 4300
+F 0 "#PWR0223" H 8100 4150 50  0001 C CNN
+F 1 "VDD_1V8" H 8115 4473 50  0000 C CNN
+F 2 "" H 8100 4300 50  0001 C CNN
+F 3 "" H 8100 4300 50  0001 C CNN
+	1    8100 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 4300 7950 4350
+	8100 4300 8100 4350
 Wire Wire Line
-	7950 4550 7250 4550
+	8100 4550 7250 4550
 Wire Wire Line
-	7250 4450 7950 4450
-Connection ~ 7950 4450
+	7250 4450 8100 4450
+Connection ~ 8100 4450
 Wire Wire Line
-	7950 4450 7950 4550
+	8100 4450 8100 4550
 Wire Wire Line
-	7950 4350 7250 4350
-Connection ~ 7950 4350
+	8100 4350 7250 4350
+Connection ~ 8100 4350
 Wire Wire Line
-	7950 4350 7950 4450
+	8100 4350 8100 4450
 Text GLabel 7250 2550 2    50   Input ~ 0
 PCIE_USB_D_N
 Text GLabel 7250 2650 2    50   Input ~ 0
@@ -494,9 +448,9 @@ Text GLabel 7250 3750 2    50   Input ~ 0
 UART3_TX
 Text GLabel 7250 3650 2    50   Input ~ 0
 UART3_RX
-Text GLabel 7250 4050 2    50   Input ~ 0
+Text GLabel 7250 3850 2    50   Input ~ 0
 UART1_RX
-Text GLabel 7250 4150 2    50   Input ~ 0
+Text GLabel 7250 3950 2    50   Input ~ 0
 UART1_TX
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J10
@@ -558,4 +512,107 @@ Text GLabel 7250 5350 2    50   Input ~ 0
 GPIO1[14]
 Text GLabel 7250 5250 2    50   Input ~ 0
 GPIO1[15]
+$Comp
+L power:GND #PWR0222
+U 1 1 5EFF4815
+P 7850 4700
+F 0 "#PWR0222" H 7850 4450 50  0001 C CNN
+F 1 "GND" H 7855 4527 50  0000 C CNN
+F 2 "" H 7850 4700 50  0001 C CNN
+F 3 "" H 7850 4700 50  0001 C CNN
+	1    7850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4250 7850 4250
+Wire Wire Line
+	7850 4250 7850 4700
+Wire Wire Line
+	7250 4050 7850 4050
+Wire Wire Line
+	7850 4050 7850 4150
+Connection ~ 7850 4250
+Wire Wire Line
+	7250 4150 7850 4150
+Connection ~ 7850 4150
+Wire Wire Line
+	7850 4150 7850 4250
+$Comp
+L mxenc:VDD_3V3 #PWR0245
+U 1 1 5F185D48
+P 8100 2950
+F 0 "#PWR0245" H 8100 2800 50  0001 C CNN
+F 1 "VDD_3V3" H 8115 3123 50  0000 C CNN
+F 2 "" H 8100 2950 50  0001 C CNN
+F 3 "" H 8100 2950 50  0001 C CNN
+	1    8100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2950 8100 3050
+Wire Wire Line
+	8100 3050 7250 3050
+Wire Wire Line
+	8100 3050 8100 3150
+Wire Wire Line
+	8100 3150 7250 3150
+Connection ~ 8100 3050
+Wire Wire Line
+	7250 3250 8100 3250
+Wire Wire Line
+	8100 3250 8100 3150
+Connection ~ 8100 3150
+$Comp
+L power:GND #PWR0253
+U 1 1 5F18CEE2
+P 8100 3600
+F 0 "#PWR0253" H 8100 3350 50  0001 C CNN
+F 1 "GND" H 8105 3427 50  0000 C CNN
+F 2 "" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3600 8100 3550
+Wire Wire Line
+	8100 3350 7250 3350
+Wire Wire Line
+	7250 3450 8100 3450
+Connection ~ 8100 3450
+Wire Wire Line
+	8100 3450 8100 3350
+Connection ~ 8100 3550
+Wire Wire Line
+	8100 3550 8100 3450
+Wire Wire Line
+	7250 3550 8100 3550
+Text GLabel 6750 4550 0    50   Input ~ 0
+SAI3_MCLK
+Text GLabel 6750 4450 0    50   Input ~ 0
+SAI3_TXD
+Text GLabel 6750 4350 0    50   Input ~ 0
+SAI3_TXC
+Text GLabel 6750 4250 0    50   Input ~ 0
+SAI3_TXFS
+Text GLabel 6750 4150 0    50   Input ~ 0
+SAI3_RXD
+Text GLabel 6750 4050 0    50   Input ~ 0
+SAI3_RXC
+Text GLabel 6750 3950 0    50   Input ~ 0
+SAI3_RXFS
+Text GLabel 6750 4850 0    50   Input ~ 0
+SAI2_MCLK
+Text GLabel 6750 4950 0    50   Input ~ 0
+SAI2_TXD0
+Text GLabel 6750 5050 0    50   Input ~ 0
+SAI2_TXC
+Text GLabel 6750 5150 0    50   Input ~ 0
+SAI2_TXFS
+Text GLabel 6750 5250 0    50   Input ~ 0
+SAI2_RXD0
+Text GLabel 6750 5350 0    50   Input ~ 0
+SAI2_RXC
+Text GLabel 6750 5450 0    50   Input ~ 0
+SAI2_RXFS
 $EndSCHEMATC

@@ -263,9 +263,9 @@ F 6 "568-15276-ND" H 9200 2950 50  0001 C CNN "Vendorpart"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10450 5350 10550 5350
+	10450 3500 10550 3500
 Wire Wire Line
-	10450 5250 10550 5250
+	10450 3400 10550 3400
 $Comp
 L mxenc:VDD_3V3 #PWR0250
 U 1 1 5D9C3369
@@ -335,11 +335,11 @@ Wire Wire Line
 	6450 1500 6650 1500
 Wire Wire Line
 	6650 1300 6450 1300
-Text Label 10550 5150 0    50   ~ 0
+Text Label 10550 3300 0    50   ~ 0
 LED_R
-Text Label 10550 5250 0    50   ~ 0
+Text Label 10550 3400 0    50   ~ 0
 LED_G
-Text Label 10550 5350 0    50   ~ 0
+Text Label 10550 3500 0    50   ~ 0
 LED_B
 $Comp
 L Connector_Generic_MountingPin:Conn_01x06_MountingPin J4
@@ -356,7 +356,7 @@ F 6 "SM06B-SRSS-TB(LF)(SN)" H 3700 1400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 5150 10550 5150
+	10450 3300 10550 3300
 Text Label 6450 1300 2    50   ~ 0
 LED_R
 Text Label 6450 1500 2    50   ~ 0
@@ -367,9 +367,9 @@ Text Label 7300 9200 2    50   ~ 0
 UART2_TX
 Text Label 7300 9100 2    50   ~ 0
 UART2_RX
-Text Label 7900 2600 2    50   ~ 0
+Text Label 11450 4150 0    50   ~ 0
 UART2_RTS_B
-Text Label 7900 2700 2    50   ~ 0
+Text Label 11450 4250 0    50   ~ 0
 UART2_CTS_B
 Text Label 3500 1400 2    50   ~ 0
 UART2_TX
@@ -453,9 +453,9 @@ Text Label 13000 6200 2    50   ~ 0
 PCIE_DISB
 Wire Wire Line
 	13000 6200 13350 6200
-Text Label 10450 4750 0    50   ~ 0
+Text Label 10450 5000 0    50   ~ 0
 PCIE_RSTB
-Text Label 10450 4850 0    50   ~ 0
+Text Label 10450 4600 0    50   ~ 0
 PCIE_DISB
 Text Label 13100 6850 2    50   ~ 0
 TCPC_~INT
@@ -1005,8 +1005,6 @@ Text Notes 6750 7850 0    50   ~ 0
 Normal boot mode: boot from fuses\n-----------------------------------\n\nGPIO boot override pins are ignored. The boot ROM code uses the boot \neFUSE settings only. This mode also supports a secure boot using HAB.\n\nUnprogrammed device boot flow (BT_FUSE_SEL = 0)\n-----------------------------------\n\n- Boot ROM detect SD/MMC card on USDHC2 port. If a card is inserted, \nROM will try to boot from it. This is the so-called Manufacture SD/MMC\nboot. This feature can be disabled by blowing fuse “Disable SD/MMC \nManufacture Mode”.\n- Subsequently jumps to the Serial Downloader\n\nProgrammed device boot flow (BT_FUSE_SEL = 1)\n-----------------------------------\n\n- Boot from eMMC (USDHC1)\n- If not programmed fall back to SD (USDHC2)\n- Fall back to Serial Downloader
 Text Label 6000 6600 0    50   ~ 0
 BTN0
-Text Notes 5700 4700 0    35   ~ 0
-EN - output, 3.3v push-pull\nOC - input, internal pull-up
 Text Notes 6200 3350 0    35   ~ 0
 WDOG - input, internal pull-up\nnINT - input, internal pull-up\nVSEL - output, 1.8v push-pull
 $Comp
@@ -1123,10 +1121,6 @@ F 6 "EVQ-P7C01P" H 10150 1150 50  0001 C CNN "Part"
 	1    10150 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 2950 2    50   Input ~ 0
-GPIO1[0]
-Text GLabel 5600 3050 2    50   Input ~ 0
-GPIO1[1]
 Text GLabel 7900 3450 0    50   Input ~ 0
 SAI1_TXD7
 Text GLabel 7900 3550 0    50   Input ~ 0
@@ -1175,11 +1169,11 @@ Text GLabel 9650 1150 0    50   Input ~ 0
 BTN1
 Text GLabel 3050 3700 0    50   Input ~ 0
 ECSPI2_SCLK
-Text GLabel 3050 3800 0    50   Input ~ 0
+Text GLabel 2400 3800 0    50   Input ~ 0
 ECSPI2_MISO
 Text GLabel 3050 3900 0    50   Input ~ 0
 ECSPI2_MOSI
-Text GLabel 3050 4000 0    50   Input ~ 0
+Text GLabel 2400 4000 0    50   Input ~ 0
 ECSPI2_SS0
 Text GLabel 3050 3100 0    50   Input ~ 0
 ECSPI1_SCLK
@@ -1471,4 +1465,78 @@ Text GLabel 7300 9400 0    50   Input ~ 0
 UART3_RX
 Text GLabel 7300 9500 0    50   Input ~ 0
 UART3_TX
+Wire Wire Line
+	2400 3800 2450 3800
+Wire Wire Line
+	2400 4000 2550 4000
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5F026C85
+P 2450 4350
+F 0 "JP1" V 2404 4418 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 2495 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2450 4350 50  0001 C CNN
+F 3 "~" H 2450 4350 50  0001 C CNN
+	1    2450 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5F027943
+P 2550 4350
+F 0 "JP2" V 2504 4418 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 2595 4418 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2550 4350 50  0001 C CNN
+F 3 "~" H 2550 4350 50  0001 C CNN
+	1    2550 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 3800 2450 4200
+Connection ~ 2450 3800
+Wire Wire Line
+	2450 3800 3050 3800
+Wire Wire Line
+	2550 4000 2550 4200
+Connection ~ 2550 4000
+Wire Wire Line
+	2550 4000 3050 4000
+Wire Wire Line
+	2450 4700 2450 4500
+Wire Wire Line
+	2550 4700 2550 4500
+Text Label 2450 4700 3    50   ~ 0
+UART4_CTS_B
+Text Label 2550 4700 3    50   ~ 0
+UART4_RTS_B
+NoConn ~ 5600 2950
+NoConn ~ 5600 3050
+Text GLabel 10450 3750 2    50   Input ~ 0
+SAI3_MCLK
+Text GLabel 10450 3850 2    50   Input ~ 0
+SAI3_TXD
+Text GLabel 10450 3950 2    50   Input ~ 0
+SAI3_TXC
+Text GLabel 10450 4050 2    50   Input ~ 0
+SAI3_TXFS
+Text GLabel 10450 4150 2    50   Input ~ 0
+SAI3_RXD
+Text GLabel 10450 4250 2    50   Input ~ 0
+SAI3_RXC
+Text GLabel 10450 4350 2    50   Input ~ 0
+SAI3_RXFS
+Text GLabel 7900 2550 0    50   Input ~ 0
+SAI2_MCLK
+Text GLabel 7900 2650 0    50   Input ~ 0
+SAI2_TXD0
+Text GLabel 7900 2750 0    50   Input ~ 0
+SAI2_TXC
+Text GLabel 7900 2850 0    50   Input ~ 0
+SAI2_TXFS
+Text GLabel 7900 2950 0    50   Input ~ 0
+SAI2_RXD0
+Text GLabel 7900 3050 0    50   Input ~ 0
+SAI2_RXC
+Text GLabel 7900 3150 0    50   Input ~ 0
+SAI2_RXFS
 $EndSCHEMATC
