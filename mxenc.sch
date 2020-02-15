@@ -232,7 +232,7 @@ F 3 "" H 8450 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 1700 8450 1550
-Text Label 8600 1150 2    50   ~ 0
+Text Label 8350 1150 2    50   ~ 0
 BTN0
 $Comp
 L Device:LED_ARGB D1
@@ -409,9 +409,6 @@ F 3 "" H 2000 1700 50  0001 C CNN
 $EndComp
 NoConn ~ 5600 3550
 NoConn ~ 5600 3650
-NoConn ~ 5600 3950
-NoConn ~ 5600 4150
-NoConn ~ 5600 4250
 Wire Wire Line
 	2000 1200 2050 1200
 Wire Wire Line
@@ -453,10 +450,8 @@ Text Label 13000 6200 2    50   ~ 0
 PCIE_DISB
 Wire Wire Line
 	13000 6200 13350 6200
-Text Label 10450 5000 0    50   ~ 0
-PCIE_RSTB
 Text Label 10450 4600 0    50   ~ 0
-PCIE_DISB
+PCIE_RSTB
 Text Label 13100 6850 2    50   ~ 0
 TCPC_~INT
 Wire Wire Line
@@ -1037,19 +1032,11 @@ S 11000 5550 1450 850
 U 5E34BAA5
 F0 "Expansion" 50
 F1 "expansion.sch" 50
+F2 "GPIO3[8]" I L 11000 5750 50 
+F3 "GPIO3[9]" I L 11000 5850 50 
 $EndSheet
 Wire Wire Line
 	5550 7100 5100 7100
-Text GLabel 5100 7250 2    50   Input ~ 0
-JTAG_TCK
-Text GLabel 5100 7350 2    50   Input ~ 0
-JTAG_TMS
-Text GLabel 5100 7450 2    50   Input ~ 0
-JTAG_TDI
-Text GLabel 5100 7550 2    50   Input ~ 0
-JTAG_TDO
-Text GLabel 6100 7650 2    50   Input ~ 0
-JTAG_TRST_B
 Wire Wire Line
 	8350 1150 8450 1150
 Connection ~ 8450 1150
@@ -1099,7 +1086,7 @@ F 3 "" H 9750 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 1650 9750 1500
-Text Label 9950 1150 2    50   ~ 0
+Text Label 9650 1150 2    50   ~ 0
 BTN1
 Wire Wire Line
 	9650 1150 9750 1150
@@ -1121,52 +1108,6 @@ F 6 "EVQ-P7C01P" H 10150 1150 50  0001 C CNN "Part"
 	1    10150 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 3450 0    50   Input ~ 0
-SAI1_TXD7
-Text GLabel 7900 3550 0    50   Input ~ 0
-SAI1_TXD6
-Text GLabel 7900 3650 0    50   Input ~ 0
-SAI1_TXD5
-Text GLabel 7900 3750 0    50   Input ~ 0
-SAI1_TXD4
-Text GLabel 7900 3850 0    50   Input ~ 0
-SAI1_TXD3
-Text GLabel 7900 3950 0    50   Input ~ 0
-SAI1_TXD2
-Text GLabel 7900 4050 0    50   Input ~ 0
-SAI1_TXD1
-Text GLabel 7900 4150 0    50   Input ~ 0
-SAI1_TXD0
-Text GLabel 7900 4250 0    50   Input ~ 0
-SAI1_RXD7
-Text GLabel 7900 4350 0    50   Input ~ 0
-SAI1_RXD6
-Text GLabel 7900 4450 0    50   Input ~ 0
-SAI1_RXD5
-Text GLabel 7900 4550 0    50   Input ~ 0
-SAI1_RXD4
-Text GLabel 7900 4650 0    50   Input ~ 0
-SAI1_RXD3
-Text GLabel 7900 4750 0    50   Input ~ 0
-SAI1_RXD2
-Text GLabel 7900 4850 0    50   Input ~ 0
-SAI1_RXC
-Text GLabel 7900 4950 0    50   Input ~ 0
-SAI1_RXFS
-Text GLabel 7900 5050 0    50   Input ~ 0
-SAI1_RXD1
-Text GLabel 7900 5150 0    50   Input ~ 0
-SAI1_RXD0
-Text GLabel 7900 5250 0    50   Input ~ 0
-SAI1_TXC
-Text GLabel 7900 5350 0    50   Input ~ 0
-SAI1_TXFS
-Text GLabel 7900 5450 0    50   Input ~ 0
-SAI1_MCLK
-Text GLabel 8350 1150 0    50   Input ~ 0
-BTN0
-Text GLabel 9650 1150 0    50   Input ~ 0
-BTN1
 Text GLabel 3050 3700 0    50   Input ~ 0
 ECSPI2_SCLK
 Text GLabel 2400 3800 0    50   Input ~ 0
@@ -1509,8 +1450,6 @@ Text Label 2450 4700 3    50   ~ 0
 UART4_CTS_B
 Text Label 2550 4700 3    50   ~ 0
 UART4_RTS_B
-NoConn ~ 5600 2950
-NoConn ~ 5600 3050
 Text GLabel 10450 3750 2    50   Input ~ 0
 SAI3_MCLK
 Text GLabel 10450 3850 2    50   Input ~ 0
@@ -1539,4 +1478,128 @@ Text GLabel 7900 3050 0    50   Input ~ 0
 SAI2_RXC
 Text GLabel 7900 3150 0    50   Input ~ 0
 SAI2_RXFS
+Text GLabel 5600 2950 2    50   Input ~ 0
+GPIO1[0]
+Text GLabel 5600 3050 2    50   Input ~ 0
+GPIO1[1]
+Text GLabel 5600 3950 2    50   Input ~ 0
+GPIO1[10]
+Text GLabel 5600 4150 2    50   Input ~ 0
+GPIO1[12]
+Text GLabel 5600 4250 2    50   Input ~ 0
+GPIO1[13]
+Text Label 10450 5000 0    50   ~ 0
+PCIE_DISB
+NoConn ~ 7900 3450
+NoConn ~ 7900 3550
+NoConn ~ 7900 3650
+NoConn ~ 7900 3750
+NoConn ~ 7900 3850
+NoConn ~ 7900 3950
+NoConn ~ 7900 4050
+NoConn ~ 7900 4150
+NoConn ~ 7900 4250
+NoConn ~ 7900 4350
+NoConn ~ 7900 4450
+NoConn ~ 7900 4550
+NoConn ~ 7900 4650
+NoConn ~ 7900 4750
+NoConn ~ 7900 4850
+NoConn ~ 7900 4950
+NoConn ~ 7900 5050
+NoConn ~ 7900 5150
+NoConn ~ 7900 5250
+NoConn ~ 7900 5350
+NoConn ~ 7900 5450
+NoConn ~ 10450 4700
+NoConn ~ 10450 4800
+NoConn ~ 10450 4900
+NoConn ~ 10450 5100
+NoConn ~ 10450 5200
+Text Label 10850 5750 2    50   ~ 0
+BTN0
+Wire Wire Line
+	10850 5750 11000 5750
+Text Label 10850 5850 2    50   ~ 0
+BTN1
+Wire Wire Line
+	10850 5850 11000 5850
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5F857066
+P 4850 9750
+AR Path="/5E34BAA5/5F857066" Ref="J?"  Part="1" 
+AR Path="/5F857066" Ref="J10"  Part="1" 
+F 0 "J10" H 4900 10167 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4900 10076 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4850 9750 50  0001 C CNN
+F 3 "~" H 4850 9750 50  0001 C CNN
+	1    4850 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F85706C
+P 4300 10000
+AR Path="/5E34BAA5/5F85706C" Ref="#PWR?"  Part="1" 
+AR Path="/5F85706C" Ref="#PWR0239"  Part="1" 
+F 0 "#PWR0239" H 4300 9750 50  0001 C CNN
+F 1 "GND" H 4305 9827 50  0000 C CNN
+F 2 "" H 4300 10000 50  0001 C CNN
+F 3 "" H 4300 10000 50  0001 C CNN
+	1    4300 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 10000 4300 9950
+Wire Wire Line
+	4300 9750 4650 9750
+Wire Wire Line
+	4650 9650 4300 9650
+Wire Wire Line
+	4300 9650 4300 9750
+Connection ~ 4300 9750
+Wire Wire Line
+	4650 9950 4300 9950
+Connection ~ 4300 9950
+Wire Wire Line
+	4300 9950 4300 9750
+NoConn ~ 4650 9850
+$Comp
+L mxenc:VDD_1V8 #PWR?
+U 1 1 5F85707B
+P 4300 9350
+AR Path="/5E34BAA5/5F85707B" Ref="#PWR?"  Part="1" 
+AR Path="/5F85707B" Ref="#PWR0244"  Part="1" 
+F 0 "#PWR0244" H 4300 9200 50  0001 C CNN
+F 1 "VDD_1V8" H 4315 9523 50  0000 C CNN
+F 2 "" H 4300 9350 50  0001 C CNN
+F 3 "" H 4300 9350 50  0001 C CNN
+	1    4300 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 9350 4300 9550
+Wire Wire Line
+	4300 9550 4650 9550
+Text Label 5100 7250 0    50   ~ 0
+JTAG_TCK
+Text Label 5100 7350 0    50   ~ 0
+JTAG_TMS
+Text Label 5100 7450 0    50   ~ 0
+JTAG_TDI
+Text Label 5100 7550 0    50   ~ 0
+JTAG_TDO
+Text Label 5100 7650 0    50   ~ 0
+JTAG_TRST_B
+Text Label 5150 9650 0    50   ~ 0
+JTAG_TCK
+Text Label 5150 9550 0    50   ~ 0
+JTAG_TMS
+Text Label 5150 9850 0    50   ~ 0
+JTAG_TDI
+Text Label 5150 9750 0    50   ~ 0
+JTAG_TDO
+Text Label 5150 9950 0    50   ~ 0
+JTAG_TRST_B
 $EndSCHEMATC
