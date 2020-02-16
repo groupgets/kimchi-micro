@@ -1411,26 +1411,15 @@ Wire Wire Line
 Wire Wire Line
 	2400 4000 2550 4000
 $Comp
-L Jumper:SolderJumper_2_Open JP1
+L Device:R R40
 U 1 1 5F026C85
 P 2450 4350
-F 0 "JP1" V 2404 4418 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 2495 4418 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2450 4350 50  0001 C CNN
+F 0 "R40" V 2550 4250 50  0000 L CNN
+F 1 "0 DNP" V 2550 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2450 4350 50  0001 C CNN
 F 3 "~" H 2450 4350 50  0001 C CNN
 	1    2450 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5F027943
-P 2550 4350
-F 0 "JP2" V 2504 4418 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 2595 4418 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2550 4350 50  0001 C CNN
-F 3 "~" H 2550 4350 50  0001 C CNN
-	1    2550 4350
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2450 3800 2450 4200
@@ -1602,4 +1591,15 @@ Text Label 5150 9750 0    50   ~ 0
 JTAG_TDO
 Text Label 5150 9950 0    50   ~ 0
 JTAG_TRST_B
+$Comp
+L Device:R R49
+U 1 1 5E4FE003
+P 2550 4350
+F 0 "R49" V 2450 4250 50  0000 L CNN
+F 1 "0 DNP" V 2450 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2550 4350 50  0001 C CNN
+F 3 "~" H 2550 4350 50  0001 C CNN
+	1    2550 4350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
