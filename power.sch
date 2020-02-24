@@ -72,34 +72,6 @@ F 6 "311-100KJRCT-ND" H 5700 3250 50  0001 C CNN "Vendorpart"
 	1    5700 3250
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C92
-U 1 1 5DC993B7
-P 3350 2650
-F 0 "C92" H 3465 2696 50  0000 L CNN
-F 1 "0.1uF" H 3465 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3388 2500 50  0001 C CNN
-F 3 "~" H 3350 2650 50  0001 C CNN
-F 4 "Murata" H 3350 2650 50  0001 C CNN "Mfgr"
-F 5 "GRM155R71E104KE14J" H 3350 2650 50  0001 C CNN "Part"
-F 6 "490-14603-1-ND" H 3350 2650 50  0001 C CNN "Vendorpart"
-	1    3350 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0164
-U 1 1 5DC99486
-P 3350 2900
-F 0 "#PWR0164" H 3350 2650 50  0001 C CNN
-F 1 "GND" H 3355 2727 50  0000 C CNN
-F 2 "" H 3350 2900 50  0001 C CNN
-F 3 "" H 3350 2900 50  0001 C CNN
-	1    3350 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 2500 3350 2400
-Connection ~ 3350 2400
 Wire Wire Line
 	4200 2550 4200 2400
 Connection ~ 4200 2400
@@ -168,37 +140,6 @@ Wire Wire Line
 Connection ~ 5450 3250
 Text Label 5750 2950 0    50   ~ 0
 VCC_3V6
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5DC815A7
-P 2900 3500
-AR Path="/5DC815A7" Ref="J?"  Part="1" 
-AR Path="/5DC6F4F1/5DC815A7" Ref="J5"  Part="1" 
-F 0 "J5" H 2980 3492 50  0000 L CNN
-F 1 "Conn_01x02" H 2980 3401 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2900 3500 50  0001 C CNN
-F 3 "~" H 2900 3500 50  0001 C CNN
-F 4 "JST" H 2900 3500 50  0001 C CNN "Mfgr"
-F 5 "SM02B-GHS-TB(LF)(SN)" H 2900 3500 50  0001 C CNN "Part"
-F 6 "455-1564-1-ND" H 2900 3500 50  0001 C CNN "Vendorpart"
-	1    2900 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0168
-U 1 1 5DC85F93
-P 2600 3800
-F 0 "#PWR0168" H 2600 3550 50  0001 C CNN
-F 1 "GND" H 2605 3627 50  0000 C CNN
-F 2 "" H 2600 3800 50  0001 C CNN
-F 3 "" H 2600 3800 50  0001 C CNN
-	1    2600 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 3800 2600 3600
-Wire Wire Line
-	2600 2400 2600 3500
 $Comp
 L power:GND #PWR0169
 U 1 1 5DCB8B12
@@ -990,11 +931,6 @@ $EndComp
 Wire Wire Line
 	2550 6500 2550 6600
 Connection ~ 2550 6600
-Text HLabel 2400 2400 0    50   Input ~ 0
-VBUS_IN
-Wire Wire Line
-	2400 2400 2600 2400
-Connection ~ 2600 2400
 NoConn ~ 6300 3150
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -1022,10 +958,6 @@ F 3 "~" H 11150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 11150 2400
-Wire Wire Line
-	2600 3500 2700 3500
-Wire Wire Line
-	2600 3600 2700 3600
 Text Label 7350 2500 0    50   ~ 0
 SW
 Text Label 7350 3150 0    50   ~ 0
@@ -1038,8 +970,6 @@ Text Label 6800 2100 0    50   ~ 0
 BST
 Wire Wire Line
 	4500 2850 6300 2850
-Wire Wire Line
-	3350 2400 4200 2400
 $Comp
 L power:GND #PWR0165
 U 1 1 5DC6150E
@@ -1102,15 +1032,11 @@ Wire Wire Line
 Text Notes 12800 2750 0    50   ~ 0
 AON2405 is EOL. Possible replacement\nhttps://www.digikey.com/product-detail/en/0/785-AONR21305CTR-ND
 Wire Wire Line
-	2600 2400 3350 2400
-Wire Wire Line
-	3350 2800 3350 2900
-Wire Wire Line
 	9850 2900 10200 2900
 Wire Wire Line
 	10200 2400 11150 2400
 $Comp
-L Device:CP C91
+L Device:CP1 C91
 U 1 1 5E62AAE9
 P 10200 2650
 F 0 "C91" H 10318 2741 50  0000 L CNN
@@ -1128,4 +1054,78 @@ Wire Wire Line
 Connection ~ 10200 2900
 Wire Wire Line
 	10200 2900 10550 2900
+Text HLabel 2400 2400 0    50   Input ~ 0
+VCHG
+Connection ~ 2600 2400
+Wire Wire Line
+	2400 2400 2600 2400
+Wire Wire Line
+	2600 3600 2700 3600
+Wire Wire Line
+	2600 3500 2700 3500
+Wire Wire Line
+	2600 2400 2600 3500
+Wire Wire Line
+	2600 3800 2600 3600
+$Comp
+L power:GND #PWR0168
+U 1 1 5DC85F93
+P 2600 3800
+F 0 "#PWR0168" H 2600 3550 50  0001 C CNN
+F 1 "GND" H 2605 3627 50  0000 C CNN
+F 2 "" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DC815A7
+P 2900 3500
+AR Path="/5DC815A7" Ref="J?"  Part="1" 
+AR Path="/5DC6F4F1/5DC815A7" Ref="J5"  Part="1" 
+F 0 "J5" H 2980 3492 50  0000 L CNN
+F 1 "Conn_01x02" H 2980 3401 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 2900 3500 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+F 4 "JST" H 2900 3500 50  0001 C CNN "Mfgr"
+F 5 "S2B-PH-K-S(LF)(SN)" H 2900 3500 50  0001 C CNN "Part"
+F 6 "455-1719-ND" H 2900 3500 50  0001 C CNN "Vendorpart"
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0164
+U 1 1 5DC99486
+P 3350 2900
+F 0 "#PWR0164" H 3350 2650 50  0001 C CNN
+F 1 "GND" H 3355 2727 50  0000 C CNN
+F 2 "" H 3350 2900 50  0001 C CNN
+F 3 "" H 3350 2900 50  0001 C CNN
+	1    3350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2400 3350 2400
+Wire Wire Line
+	3350 2400 4200 2400
+Connection ~ 3350 2400
+Wire Wire Line
+	3350 2800 3350 2900
+Wire Wire Line
+	3350 2500 3350 2400
+$Comp
+L Device:C C92
+U 1 1 5DC993B7
+P 3350 2650
+F 0 "C92" H 3465 2696 50  0000 L CNN
+F 1 "0.1uF" H 3465 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3388 2500 50  0001 C CNN
+F 3 "~" H 3350 2650 50  0001 C CNN
+F 4 "Murata" H 3350 2650 50  0001 C CNN "Mfgr"
+F 5 "GRM155R71E104KE14J" H 3350 2650 50  0001 C CNN "Part"
+F 6 "490-14603-1-ND" H 3350 2650 50  0001 C CNN "Vendorpart"
+	1    3350 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
