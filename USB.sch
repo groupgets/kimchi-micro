@@ -201,20 +201,6 @@ USB1_VBUS_F
 Wire Wire Line
 	7750 1850 7950 1850
 $Comp
-L Device:C C160
-U 1 1 5E14CE67
-P 8950 2150
-F 0 "C160" H 9065 2196 50  0000 L CNN
-F 1 "4.7uF" H 9065 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8988 2000 50  0001 C CNN
-F 3 "~" H 8950 2150 50  0001 C CNN
-F 4 "Yageo" H 8950 2150 50  0001 C CNN "Mfgr"
-F 5 "CC1210MKX7R6BB475" H 8950 2150 50  0001 C CNN "Part"
-F 6 "311-3539-1-ND" H 8950 2150 50  0001 C CNN "Vendorpart"
-	1    8950 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C161
 U 1 1 5E14D078
 P 9300 2150
@@ -745,8 +731,6 @@ F 6 "PTN5110NHQZ" H 7200 7250 50  0001 C CNN "Part"
 	1    7200 7250
 	1    0    0    -1  
 $EndComp
-Text Notes 11800 1650 0    50   ~ 0
-47uF vs 100uF electrolytic?\n0.1uF already on input
 Text Notes 11500 2750 0    50   ~ 0
 have 1uF, 10uF, 100uF on VDD 5V pmic out
 Text Label 5500 3850 2    50   ~ 0
@@ -1137,6 +1121,22 @@ F 4 "Murata" H 12100 2050 50  0001 C CNN "Mfgr"
 F 5 "GRM155R71E104KE14J" H 12100 2050 50  0001 C CNN "Part"
 F 6 "490-14603-1-ND" H 12100 2050 50  0001 C CNN "Vendorpart"
 	1    12100 2050
+	1    0    0    -1  
+$EndComp
+Text Notes 11800 1650 0    50   ~ 0
+47uF vs 100uF electrolytic?\n0.1uF already on input
+$Comp
+L Device:C C160
+U 1 1 5F1F8DAE
+P 8950 2150
+F 0 "C160" H 9065 2196 50  0000 L CNN
+F 1 "4.7uF" H 9065 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 2000 50  0001 C CNN
+F 3 "~" H 8950 2150 50  0001 C CNN
+F 4 "Taiyo Yuden" H 8950 2150 50  0001 C CNN "Mfgr"
+F 5 "JMK107C6475MA-T" H 8950 2150 50  0001 C CNN "Part"
+F 6 "587-4905-1-ND" H 8950 2150 50  0001 C CNN "Vendorpart"
+	1    8950 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
