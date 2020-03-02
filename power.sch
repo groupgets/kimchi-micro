@@ -32,7 +32,7 @@ Wire Wire Line
 Text Notes 6800 4050 0    50   ~ 0
 5V 3A
 Text Notes 2350 2350 0    50   ~ 0
-Main PWR 5-20V
+Main PWR 4.5-6V
 $Comp
 L power:GND #PWR0170
 U 1 1 5DCFFE1F
@@ -1386,7 +1386,7 @@ F 6 "ERJ-8CWFR020V" H 8150 2800 50  0001 C CNN "Part"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 2400 3550 2400
+	1950 2400 2250 2400
 Text Label 9050 3100 0    50   ~ 0
 FB_DIV
 Text Label 7250 2600 0    50   ~ 0
@@ -1818,4 +1818,39 @@ Wire Wire Line
 	13400 6400 13500 6400
 Text Notes 10800 7550 0    50   ~ 0
 Fake\nRNTC
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F9E7E0C
+P 1800 1800
+AR Path="/5F9E7E0C" Ref="J?"  Part="1" 
+AR Path="/5DC6F4F1/5F9E7E0C" Ref="J13"  Part="1" 
+F 0 "J13" H 1880 1792 50  0000 L CNN
+F 1 "Conn_01x02" H 1880 1701 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 1800 1800 50  0001 C CNN
+F 3 "~" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1800 2250 1800
+Wire Wire Line
+	2250 1800 2250 2400
+Connection ~ 2250 2400
+Wire Wire Line
+	2250 2400 3550 2400
+$Comp
+L power:GNDA #PWR0275
+U 1 1 5FA37EDE
+P 2100 2050
+F 0 "#PWR0275" H 2100 1800 50  0001 C CNN
+F 1 "GNDA" H 2105 1877 50  0000 C CNN
+F 2 "" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2050 2100 1900
+Wire Wire Line
+	2100 1900 2000 1900
 $EndSCHEMATC
