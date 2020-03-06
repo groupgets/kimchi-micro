@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 8 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""

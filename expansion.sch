@@ -1,21 +1,20 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+L Connector_Generic_MountingPin:Conn_02x30_Counter_Clockwise_MountingPin J?
 U 1 1 5E367446
 P 6200 2800
 AR Path="/5E367446" Ref="J?"  Part="1" 
@@ -24,11 +23,14 @@ F 0 "J9" H 6250 4417 50  0000 C CNN
 F 1 "DF40HC(3.5)-60DS" H 6250 4326 50  0000 C CNN
 F 2 "mxenc:DF40C-60DP" H 6200 2800 50  0001 C CNN
 F 3 "~" H 6200 2800 50  0001 C CNN
+F 4 "H11628CT-ND" H 6200 2800 50  0000 C CNN "Vendorpart"
+F 5 "Hirose" H 6200 2800 50  0001 C CNN "Mfgr"
+F 6 "DF40C-60DP-0.4V(51)" H 6200 2800 50  0001 C CNN "Part"
 	1    6200 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+L Connector_Generic_MountingPin:Conn_02x30_Counter_Clockwise_MountingPin J?
 U 1 1 5E36744C
 P 8800 2800
 AR Path="/5E36744C" Ref="J?"  Part="1" 
@@ -37,6 +39,9 @@ F 0 "J7" H 8850 4417 50  0000 C CNN
 F 1 "DF40HC(3.5)-60DS" H 8850 4326 50  0000 C CNN
 F 2 "mxenc:DF40C-60DP" H 8800 2800 50  0001 C CNN
 F 3 "~" H 8800 2800 50  0001 C CNN
+F 4 "H11628CT-ND" H 8800 2800 50  0000 C CNN "Vendorpart"
+F 5 "Hirose" H 8800 2800 50  0001 C CNN "Mfgr"
+F 6 "DF40C-60DP-0.4V(51)" H 8800 2800 50  0001 C CNN "Part"
 	1    8800 2800
 	1    0    0    -1  
 $EndComp
@@ -257,24 +262,12 @@ Wire Wire Line
 	7050 2400 7050 2300
 Wire Wire Line
 	7050 2300 6500 2300
-$Comp
-L mxenc:VDD_5V #PWR0220
-U 1 1 5F42799C
-P 4950 2000
-F 0 "#PWR0220" H 4950 1850 50  0001 C CNN
-F 1 "VDD_5V" H 4965 2173 50  0000 C CNN
-F 2 "" H 4950 2000 50  0001 C CNN
-F 3 "" H 4950 2000 50  0001 C CNN
-	1    4950 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 2000 6000 2000
 Wire Wire Line
 	6000 2300 4950 2300
 Wire Wire Line
 	4950 2300 4950 2200
-Connection ~ 4950 2000
 Wire Wire Line
 	6000 2200 4950 2200
 Connection ~ 4950 2200
@@ -308,11 +301,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 2500 4950 2600
 Connection ~ 4950 2600
-Wire Wire Line
-	6000 2400 4950 2400
-Wire Wire Line
-	4950 2400 4950 2500
-Connection ~ 4950 2500
 $Comp
 L mxenc:VDD_1V8 #PWR0223
 U 1 1 5F46F757
@@ -637,4 +625,27 @@ Wire Wire Line
 Wire Wire Line
 	9950 2000 9950 1900
 Connection ~ 9950 1900
+$Comp
+L mxenc:VSYS_5V #PWR0220
+U 1 1 5E69C086
+P 4950 1900
+F 0 "#PWR0220" H 4950 1750 50  0001 C CNN
+F 1 "VSYS_5V" H 4965 2073 50  0000 C CNN
+F 2 "" H 4950 1900 50  0001 C CNN
+F 3 "" H 4950 1900 50  0001 C CNN
+	1    4950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1900 4950 2000
+Connection ~ 4950 2000
+Connection ~ 4950 2500
+Wire Wire Line
+	4950 2400 4950 2500
+Wire Wire Line
+	6000 2400 4950 2400
+Wire Wire Line
+	6250 4500 6250 4550
+Wire Wire Line
+	8850 4500 8850 4550
 $EndSCHEMATC

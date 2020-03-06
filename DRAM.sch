@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -431,8 +430,6 @@ F 3 "" H 8550 3850 50  0001 C CNN
 	1    8550 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 3850 8550 3750
 Wire Wire Line
 	8550 3750 8700 3750
 $Comp
@@ -1269,4 +1266,6 @@ Wire Wire Line
 	11700 1750 11700 2450
 NoConn ~ 2900 6200
 NoConn ~ 2900 5800
+Wire Wire Line
+	8550 3750 8550 3850
 $EndSCHEMATC

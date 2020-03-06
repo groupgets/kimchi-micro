@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 10 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -111,7 +110,7 @@ F 6 "568-15322-1-ND" H 10450 3000 50  0001 C CNN "Vendorpart"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L mxenc:USB_C_Receptacle_USB2.0 J1
 U 1 1 5D6908E4
 P 14550 7600
 F 0 "J1" H 14120 7389 50  0000 R CNN

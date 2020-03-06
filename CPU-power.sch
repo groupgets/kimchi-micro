@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 3 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -2139,20 +2138,6 @@ F 3 "" H 8000 3550 50  0001 C CNN
 	1    8000 3550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0111
-U 1 1 5E0DCDB6
-P 7450 7400
-F 0 "#FLG0111" H 7450 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 7450 7573 50  0000 C CNN
-F 2 "" H 7450 7400 50  0001 C CNN
-F 3 "~" H 7450 7400 50  0001 C CNN
-	1    7450 7400
-	1    0    0    -1  
-$EndComp
-Connection ~ 7450 7400
 Wire Wire Line
-	7450 7400 7350 7400
-Wire Wire Line
-	7450 7400 8100 7400
+	7350 7400 8100 7400
 $EndSCHEMATC

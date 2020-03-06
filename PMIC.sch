@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 4 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1595,17 +1594,6 @@ PMIC_STBY_REQ
 Text HLabel 3800 7250 0    50   Input ~ 0
 SYS_NRST
 $Comp
-L mxenc:NVCC_DRAM_1V1 #PWR043
-U 1 1 5D9DBDA9
-P 2550 7150
-F 0 "#PWR043" H 2550 7000 50  0001 C CNN
-F 1 "NVCC_DRAM_1V1" H 2100 7300 50  0000 L CNN
-F 2 "" H 2550 7150 50  0001 C CNN
-F 3 "" H 2550 7150 50  0001 C CNN
-	1    2550 7150
-	1    0    0    -1  
-$EndComp
-$Comp
 L mxenc:VDD_1V8 #PWR042
 U 1 1 5D9DD486
 P 2850 6550
@@ -2050,4 +2038,17 @@ Wire Wire Line
 	5800 3950 6000 3950
 Wire Wire Line
 	6850 2150 7300 2150
+$Comp
+L mxenc:NVCC_SNVS_1V8 #PWR0277
+U 1 1 5E6C9EEF
+P 2550 6950
+F 0 "#PWR0277" H 2550 6800 50  0001 C CNN
+F 1 "NVCC_SNVS_1V8" H 2565 7123 50  0000 C CNN
+F 2 "" H 2550 6950 50  0001 C CNN
+F 3 "" H 2550 6950 50  0001 C CNN
+	1    2550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6950 2550 7150
 $EndSCHEMATC

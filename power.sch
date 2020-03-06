@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 6 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -63,7 +62,7 @@ Connection ~ 10150 3100
 Wire Wire Line
 	10150 3100 9900 3100
 Wire Wire Line
-	14150 2400 11250 2400
+	14150 2400 13250 2400
 $Comp
 L Device:Q_NMOS_GSD Q3
 U 1 1 5DD2E722
@@ -179,8 +178,6 @@ Wire Wire Line
 	11250 3550 11250 3450
 Connection ~ 11500 3550
 Connection ~ 11250 2400
-Wire Wire Line
-	11250 2400 11150 2400
 Wire Wire Line
 	11500 3150 11500 3050
 Wire Wire Line
@@ -606,18 +603,6 @@ $EndComp
 Connection ~ 12450 3050
 Wire Wire Line
 	12450 3050 12550 3050
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5DE60E1E
-P 11150 2400
-F 0 "#FLG0102" H 11150 2475 50  0001 C CNN
-F 1 "PWR_FLAG" H 11150 2573 50  0000 C CNN
-F 2 "" H 11150 2400 50  0001 C CNN
-F 3 "~" H 11150 2400 50  0001 C CNN
-	1    11150 2400
-	1    0    0    -1  
-$EndComp
-Connection ~ 11150 2400
 Text Label 7250 2800 0    50   ~ 0
 SW
 Wire Wire Line
@@ -1254,8 +1239,6 @@ Wire Wire Line
 	10650 2600 10650 2400
 Connection ~ 10650 2400
 Wire Wire Line
-	10650 2400 11150 2400
-Wire Wire Line
 	10150 3100 10400 3100
 Wire Wire Line
 	10400 3700 10400 3100
@@ -1385,8 +1368,6 @@ F 6 "ERJ-8CWFR020V" H 8150 2800 50  0001 C CNN "Part"
 	1    8150 2800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1950 2400 2250 2400
 Text Label 9050 3100 0    50   ~ 0
 FB_DIV
 Text Label 7250 2600 0    50   ~ 0
@@ -1821,36 +1802,40 @@ Fake\nRNTC
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5F9E7E0C
-P 1800 1800
+P 12800 1800
 AR Path="/5F9E7E0C" Ref="J?"  Part="1" 
 AR Path="/5DC6F4F1/5F9E7E0C" Ref="J13"  Part="1" 
-F 0 "J13" H 1880 1792 50  0000 L CNN
-F 1 "Conn_01x02" H 1880 1701 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 1800 1800 50  0001 C CNN
-F 3 "~" H 1800 1800 50  0001 C CNN
-	1    1800 1800
+F 0 "J13" H 12880 1792 50  0000 L CNN
+F 1 "Conn_01x02" H 12880 1701 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 12800 1800 50  0001 C CNN
+F 3 "~" H 12800 1800 50  0001 C CNN
+	1    12800 1800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1800 2250 1800
+	13000 1800 13250 1800
 Wire Wire Line
-	2250 1800 2250 2400
-Connection ~ 2250 2400
-Wire Wire Line
-	2250 2400 3550 2400
+	13250 1800 13250 2400
 $Comp
 L power:GNDA #PWR0275
 U 1 1 5FA37EDE
-P 2100 2050
-F 0 "#PWR0275" H 2100 1800 50  0001 C CNN
-F 1 "GNDA" H 2105 1877 50  0000 C CNN
-F 2 "" H 2100 2050 50  0001 C CNN
-F 3 "" H 2100 2050 50  0001 C CNN
-	1    2100 2050
+P 13100 2050
+F 0 "#PWR0275" H 13100 1800 50  0001 C CNN
+F 1 "GNDA" H 13105 1877 50  0000 C CNN
+F 2 "" H 13100 2050 50  0001 C CNN
+F 3 "" H 13100 2050 50  0001 C CNN
+	1    13100 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 2050 2100 1900
+	13100 2050 13100 1900
 Wire Wire Line
-	2100 1900 2000 1900
+	13100 1900 13000 1900
+Connection ~ 13250 2400
+Wire Wire Line
+	13250 2400 11250 2400
+Wire Wire Line
+	1950 2400 3550 2400
+Wire Wire Line
+	10650 2400 11250 2400
 $EndSCHEMATC

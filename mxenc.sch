@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:mxenc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kimχ micro"
+Date "2020-03-05"
+Rev "0.9"
+Comp "GroupGets"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -87,6 +86,8 @@ U 5DC6F4F1
 F0 "Power" 50
 F1 "power.sch" 50
 F2 "VCHG" I L 11000 1450 50 
+F3 "CHG_EN" I L 11000 1550 50 
+F4 "VIB" O L 11000 1650 50 
 $EndSheet
 Wire Wire Line
 	15550 4450 15400 4450
@@ -367,18 +368,10 @@ Text Label 7300 9200 2    50   ~ 0
 UART2_TX
 Text Label 7300 9100 2    50   ~ 0
 UART2_RX
-Text Label 11450 4150 0    50   ~ 0
-UART2_RTS_B
-Text Label 11450 4250 0    50   ~ 0
-UART2_CTS_B
 Text Label 3500 1400 2    50   ~ 0
 UART2_TX
 Text Label 3500 1300 2    50   ~ 0
 UART2_RX
-Text Label 3500 1600 2    50   ~ 0
-UART2_RTS_B
-Text Label 3500 1500 2    50   ~ 0
-UART2_CTS_B
 Text Label 2050 1400 2    50   ~ 0
 UART4_TX
 Text Label 2050 1300 2    50   ~ 0
@@ -1602,4 +1595,38 @@ F 3 "~" H 2550 4350 50  0001 C CNN
 	1    2550 4350
 	-1   0    0    1   
 $EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5E707050
+P 1600 6800
+F 0 "SW3" H 1600 7085 50  0000 C CNN
+F 1 "SW_Push" H 1600 6994 50  0000 C CNN
+F 2 "mxenc:SW_SPST_EVQP7A" H 1600 7000 50  0001 C CNN
+F 3 "~" H 1600 7000 50  0001 C CNN
+F 4 "P16765CT-ND" H 1600 6800 50  0000 C CNN "Vendorpart"
+F 5 "Panasonic" H 1600 6800 50  0001 C CNN "Mfgr"
+F 6 "EVQ-P7C01P" H 1600 6800 50  0001 C CNN "Part"
+	1    1600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0276
+U 1 1 5E710EB8
+P 1200 6900
+F 0 "#PWR0276" H 1200 6650 50  0001 C CNN
+F 1 "GND" H 1205 6727 50  0000 C CNN
+F 2 "" H 1200 6900 50  0001 C CNN
+F 3 "" H 1200 6900 50  0001 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6900 1200 6800
+Wire Wire Line
+	1200 6800 1400 6800
+Wire Wire Line
+	1800 6800 2250 6800
+Connection ~ 2250 6800
+NoConn ~ 3500 1500
+NoConn ~ 3500 1600
 $EndSCHEMATC
