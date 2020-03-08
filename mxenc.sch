@@ -400,7 +400,6 @@ F 3 "" H 2000 1700 50  0001 C CNN
 	1    2000 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5600 3550
 NoConn ~ 5600 3650
 Wire Wire Line
 	2000 1200 2050 1200
@@ -1483,7 +1482,6 @@ NoConn ~ 7900 4150
 NoConn ~ 7900 4250
 NoConn ~ 7900 4350
 NoConn ~ 7900 4450
-NoConn ~ 7900 4550
 NoConn ~ 7900 4650
 NoConn ~ 7900 4750
 NoConn ~ 7900 4850
@@ -1629,4 +1627,19 @@ Wire Wire Line
 Connection ~ 2250 6800
 NoConn ~ 3500 1500
 NoConn ~ 3500 1600
+NoConn ~ 10850 1650
+Wire Wire Line
+	11000 1650 10850 1650
+Text Label 7700 4550 2    50   ~ 0
+TCPC_~INT
+Wire Wire Line
+	7700 4550 7900 4550
+Text Label 10600 1550 0    50   ~ 0
+CHG_EN
+Wire Wire Line
+	10600 1550 11000 1550
+Text Label 5750 3550 0    50   ~ 0
+CHG_EN
+Wire Wire Line
+	5750 3550 5600 3550
 $EndSCHEMATC

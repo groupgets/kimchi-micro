@@ -1,4 +1,4 @@
-(module IC_MP2636GR-P (layer F.Cu) (tedit 5E54B6A5)
+(module IC_MP2636GR-P (layer F.Cu) (tedit 5E641C9C)
   (fp_text reference REF** (at 0.635 -3.429) (layer F.SilkS)
     (effects (font (size 1.4 1.4) (thickness 0.015)))
   )
@@ -23,14 +23,6 @@
   (fp_line (start 2.05 2.05) (end -2.05 2.05) (layer F.Fab) (width 0.127))
   (fp_line (start 2.05 -2.05) (end 2.05 2.05) (layer F.Fab) (width 0.127))
   (fp_line (start -2.05 -2.05) (end 2.05 -2.05) (layer F.Fab) (width 0.127))
-  (pad 15_1 smd rect (at 1.7 1.75) (size 0.4 0.5) (layers F.Cu F.Paste F.Mask))
-  (pad 8_1 smd rect (at -1.7 1.75) (size 0.4 0.5) (layers F.Cu F.Paste F.Mask))
-  (pad 22_1 smd rect (at 1.7 -1.75) (size 0.4 0.5) (layers F.Cu F.Paste F.Mask))
-  (pad 22 smd rect (at 1.9 -1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad 15 smd rect (at 1.9 1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at -1.9 1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -1.9 -1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad 1_1 smd rect (at -1.7 -1.75) (size 0.4 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 29 smd rect (at 0 -0.6) (size 1.8 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 30 smd rect (at 0 0) (size 1.8 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 1 1.9) (size 0.2 0.8) (layers F.Cu F.Paste F.Mask))
@@ -57,4 +49,29 @@
   (pad 5 smd rect (at -1.9 0.2) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at 1.9 -0.2) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -1.9 -0.2) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask))
+  (pad 15 smd custom (at 1.9 1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0.6) (xy -0.4 0.6) (xy -0.4 -0.1) (xy 0 -0.1)) (width 0))
+    ))
+  (pad 22 smd custom (at 1.9 -1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0.1) (xy -0.4 0.1) (xy -0.4 -0.6) (xy 0 -0.6)) (width 0))
+    ))
+  (pad 8 smd custom (at -1.9 1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.4 0.6) (xy 0 0.6) (xy 0 -0.1) (xy 0.4 -0.1)) (width 0))
+    ))
+  (pad 1 smd custom (at -1.9 -1.4) (size 0.8 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.4 -0.4) (xy 0.4 0.1) (xy 0 0.1) (xy 0 -0.6) (xy 0.2 -0.6)
+) (width 0))
+    ))
 )

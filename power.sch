@@ -728,8 +728,6 @@ Wire Wire Line
 Text Notes 5500 3700 3    50   ~ 0
 1A charge\ncurrent
 Wire Wire Line
-	7700 2800 7850 2800
-Wire Wire Line
 	8150 3300 8150 3200
 Wire Wire Line
 	7850 2800 7850 2900
@@ -1143,8 +1141,6 @@ Wire Wire Line
 	7250 2000 7450 2000
 Wire Wire Line
 	7450 2000 7450 1850
-Wire Wire Line
-	7450 1850 7700 1850
 $Comp
 L Device:C C92
 U 1 1 5DC993B7
@@ -1488,8 +1484,6 @@ F 3 "" H 6450 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 5250 6450 5100
-Wire Wire Line
-	6450 5100 6700 5100
 Wire Wire Line
 	6700 5100 6700 5250
 Text Label 7250 3300 0    50   ~ 0
@@ -1838,4 +1832,22 @@ Wire Wire Line
 	1950 2400 3550 2400
 Wire Wire Line
 	10650 2400 11250 2400
+Wire Wire Line
+	6450 5100 6700 5100
+Wire Wire Line
+	7450 1850 7700 1850
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E7B504E
+P 8400 2800
+F 0 "#FLG0102" H 8400 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8400 2973 50  0000 C CNN
+F 2 "" H 8400 2800 50  0001 C CNN
+F 3 "~" H 8400 2800 50  0001 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 2800
+Wire Wire Line
+	7700 2800 7850 2800
 $EndSCHEMATC

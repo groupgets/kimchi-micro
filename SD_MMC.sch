@@ -584,8 +584,6 @@ Text Label 3750 4500 2    50   ~ 0
 RFU1
 Text Label 3750 4600 2    50   ~ 0
 RFU2
-Text Label 3750 4800 2    50   ~ 0
-RFU4
 Text Label 3750 5600 2    50   ~ 0
 VSF0
 Text Label 3750 5700 2    50   ~ 0
@@ -624,4 +622,7 @@ F 3 "" H 12100 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12100 5450 12100 5750
+NoConn ~ 3750 4500
+NoConn ~ 3750 4700
+NoConn ~ 3750 4600
 $EndSCHEMATC
