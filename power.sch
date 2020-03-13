@@ -1724,7 +1724,7 @@ Wire Notes Line
 Wire Notes Line
 	9500 5850 11300 5850
 Text Notes 9550 6150 0    50   ~ 0
-Default fake NTC thermistor\nFor NTC, no-stuff R68\nand modify R63, R64 if required
+Default fake NTC thermistor\nFor NTC, no-stuff R62\nand modify R59, R61 if required
 Text Notes 9850 6900 0    50   ~ 0
 Rt1
 Text Notes 9850 7500 0    50   ~ 0
