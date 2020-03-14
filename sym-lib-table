@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name mxenc)(type Legacy)(uri ${KIPRJMOD}/mxenc.lib)(options "")(descr ""))
-  (lib (name mxenc-rescue)(type Legacy)(uri ${KIPRJMOD}/mxenc-rescue.lib)(options "")(descr ""))
 )
