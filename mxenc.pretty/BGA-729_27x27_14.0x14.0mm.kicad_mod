@@ -1,4 +1,4 @@
-(module BGA-729_27x27_14.0x14.0mm (layer F.Cu) (tedit 5E6B14C3)
+(module BGA-729_27x27_14.0x14.0mm (layer F.Cu) (tedit 5E6D2328)
   (attr smd)
   (fp_text reference U1 (at -7.759976 7.296144) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
@@ -513,7 +513,7 @@
   (pad D1 smd circle (at -6.509976 -5.003856) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad C1 smd circle (at -6.509976 -5.503856) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad B1 smd circle (at -6.509976 -6.003856) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/mxenc.pretty/mx8mm.wrl
+  (model ${KIPRJMOD}/mxenc.pretty/mx8mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

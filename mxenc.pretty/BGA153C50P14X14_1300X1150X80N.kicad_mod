@@ -1,4 +1,4 @@
-(module BGA153C50P14X14_1300X1150X80N (layer F.Cu) (tedit 5E6B133C)
+(module BGA153C50P14X14_1300X1150X80N (layer F.Cu) (tedit 5E6D1FC8)
   (attr smd)
   (fp_text reference U7 (at -6.4 6.2) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
@@ -172,7 +172,7 @@
   (pad P12 smd circle (at 2.25 3.25) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
   (pad P13 smd circle (at 2.75 3.25) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
   (pad P14 smd circle (at 3.25 3.25) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/mxenc.pretty/FBGA-153_11.wrl
+  (model ${KIPRJMOD}/mxenc.pretty/FBGA-153_11.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
