@@ -7,10 +7,10 @@ Sheet 8 10
 Title "kimχ micro"
 Date "2020-03-05"
 Rev "0.9"
-Comp "GroupGets"
+Comp "GroupGets, LLC"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"
+Comment3 "Licensed CERN-OHL-S V.2"
+Comment4 "Copyright © 2020 GroupGets, LLC"
 $EndDescr
 $EndSCHEMATC
