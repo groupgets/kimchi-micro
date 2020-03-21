@@ -1,0 +1,3 @@
+[submodule "hardware_ulid"]
+	path = hardware_ulid
+	url = https://github.com/groupgets/kimchi-micro-lid
