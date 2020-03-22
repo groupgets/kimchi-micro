@@ -6,6 +6,10 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP BD71847MWV
+D Power management integrated circuit
+$ENDCMP
+#
 $CMP Bus_PCI_Express_Mini
 D Mini-PCI Express bus connector
 K mini pcie
@@ -25,6 +29,28 @@ $CMP JST-GH-6
 D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP MIC94164
+D High-side load switch
+$ENDCMP
+#
+$CMP MIMX8MM6DVTLZAA
+D i.MX8M Mini application processor
+$ENDCMP
+#
+$CMP MP2636GR-P
+D Charger IC Lithium Ion/Polymer
+F MPS
+$ENDCMP
+#
+$CMP MT53B256M32D1GZ-062_AIT_B
+D DRAM Chip Mobile LPDDR4 SDRAM 8G-Bit 512M x 32 1.1V 200-Pin WFBGA
+F Unavailable
+$ENDCMP
+#
+$CMP NCP133AMX150TCG
+D LDO Regulator 500 mA
 $ENDCMP
 #
 $CMP NVCC_1V8
@@ -55,6 +81,19 @@ $ENDCMP
 $CMP NVCC_SNVS_1V8
 D Power flag
 K power-flag
+$ENDCMP
+#
+$CMP NX20P3483UK
+D USB PD and Type-C power switch
+$ENDCMP
+#
+$CMP PTN5110NHQZ
+D USB Type-C Rev 3.0 PD PHY
+$ENDCMP
+#
+$CMP SDINBDG4-8G
+D eMMC 8GB 3.3V
+F None
 $ENDCMP
 #
 $CMP USB_C_Receptacle_USB2.0
