@@ -10,6 +10,14 @@ $CMP BD71847MWV
 D Power management integrated circuit
 $ENDCMP
 #
+$CMP BQ27426
+D IC battery fuel gauge
+$ENDCMP
+#
+$CMP BQ279XX
+D Battery protection IC LiPo
+$ENDCMP
+#
 $CMP Bus_PCI_Express_Mini
 D Mini-PCI Express bus connector
 K mini pcie
