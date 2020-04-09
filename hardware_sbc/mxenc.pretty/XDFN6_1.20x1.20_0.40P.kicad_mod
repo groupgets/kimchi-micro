@@ -1,4 +1,4 @@
-(module XDFN6_1.20x1.20_0.40P (layer F.Cu) (tedit 5D34E66B)
+(module XDFN6_1.20x1.20_0.40P (layer F.Cu) (tedit 5E8C9ADB)
   (attr smd)
   (fp_text reference REF** (at 0 -2.05) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -22,6 +22,6 @@
   (pad 3 smd rect (at -0.525 0.4 90) (size 0.24 0.35) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.525 0 90) (size 0.24 0.35) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.525 -0.4 90) (size 0.24 0.35) (layers F.Cu F.Paste F.Mask))
-  (pad 7 smd rect (at 0 0 90) (size 1.08 0.4) (layers F.Cu F.Paste F.Mask)
+  (pad 7 smd rect (at 0 0 90) (size 1.08 0.35) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.1))
 )
