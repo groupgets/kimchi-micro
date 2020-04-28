@@ -8,12 +8,12 @@ A few days ago we received the first boards for v0.9, and a USB hub module.
 
 The bare boards:
 
-![kimchi bare pcb front](images/bare-v09-front.jpg)
-![kimchi bare pcb back](images/bare-v09-back.jpg)
+![kimchi bare pcb front](/kimchi-micro/images/2020-04-27/bare-v09-front.jpg)
+![kimchi bare pcb back](/kimchi-micro/images/2020-04-27/bare-v09-back.jpg)
 
 Here is a cross section of the board:
 
-![cross section](images/v09-cross-section.jpg)
+![cross section](/kimchi-micro/images/2020-04-27/v09-cross-section.jpg)
 
 The board stackup as ordered is:
 
@@ -34,6 +34,6 @@ Finished thickness: 1.2 mm
 
 We also got in some USB hub prototype PCBs:
 
-![micro lid hub](images/usb-uhub.jpg)
+![micro lid hub](/kimchi-micro/images/2020-04-27/usb-uhub.jpg)
 
 Parts are on order and assembly of the prototype boards should begin soon.
