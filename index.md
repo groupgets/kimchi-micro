@@ -2,7 +2,7 @@
 layout: home
 ---
 
-The kimχ micro an open hardware embedded SBC for the NXP i.MX8M Mini Application
+The kimχ micro is an open hardware single board computer for the NXP i.MX8M Mini Application
 processor.
 
 ![kimchi-pcb-front](images/kimchi-front.jpg)
@@ -11,7 +11,7 @@ processor.
 
 ## About
 
-kimχ micro is a compact open hardware embedded SBC that offers great versitility for many different applications. It is about the size of a Raspberry Pi Zero, but packs a more powerful processor and more expansion and connectivity possibilities.
+kimχ micro is a compact single board computer that offers great versatility for many different applications. It is about the size of a Raspberry Pi Zero, but packs a more powerful processor and more expansion and connectivity possibilities.
 
 ## Features
 
