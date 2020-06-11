@@ -326,6 +326,7 @@ F 4 "Murata" H 6250 5350 50  0001 C CNN "Mfgr"
 F 5 "" H 6250 5350 50  0001 C CNN "Part"
 F 6 "490-13970-1-ND" H 6250 5350 50  0001 C CNN "Vendorpart"
 F 7 "GRM31CR60J227ME11L" H 6250 5350 50  0001 C CNN "Mfgrpart"
+F 8 "DNP" H 6250 5350 50  0000 C CNN "Populate"
 	1    6250 5350
 	1    0    0    -1  
 $EndComp
@@ -344,6 +345,7 @@ F 4 "Murata" H 6000 5350 50  0001 C CNN "Mfgr"
 F 5 "" H 6000 5350 50  0001 C CNN "Part"
 F 6 "490-13970-1-ND" H 6000 5350 50  0001 C CNN "Vendorpart"
 F 7 "GRM31CR60J227ME11L" H 6000 5350 50  0001 C CNN "Mfgrpart"
+F 8 "DNP" H 6000 5350 50  0000 C CNN "Populate"
 	1    6000 5350
 	1    0    0    -1  
 $EndComp
@@ -360,6 +362,7 @@ F 4 "Murata" H 5750 5350 50  0001 C CNN "Mfgr"
 F 5 "" H 5750 5350 50  0001 C CNN "Part"
 F 6 "490-13970-1-ND" H 5750 5350 50  0001 C CNN "Vendorpart"
 F 7 "GRM31CR60J227ME11L" H 5750 5350 50  0001 C CNN "Mfgrpart"
+F 8 "DNP" H 5750 5350 50  0000 C CNN "Populate"
 	1    5750 5350
 	1    0    0    -1  
 $EndComp
