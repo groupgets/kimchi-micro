@@ -954,11 +954,11 @@ Wire Wire Line
 	9100 3550 9850 3550
 Text Notes 9100 4350 0    50   ~ 0
 7-bit addr: 0x73
-Text HLabel 8250 7900 2    50   BiDi ~ 0
+Text HLabel 8250 8000 2    50   BiDi ~ 0
 USB1_PWR_SDA
 Wire Wire Line
 	8250 7900 8150 7900
-Text HLabel 8250 8000 2    50   Input ~ 0
+Text HLabel 8250 7900 2    50   Input ~ 0
 USB1_PWR_SCL
 Wire Wire Line
 	8250 8000 8150 8000
