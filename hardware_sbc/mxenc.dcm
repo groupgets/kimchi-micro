@@ -155,6 +155,11 @@ D Power flag
 K power-flag
 $ENDCMP
 #
+$CMP VDD_PCIE_3V3
+D Power flag
+K power-flag
+$ENDCMP
+#
 $CMP VDD_PHY_0V9
 D Power flag
 K power-flag

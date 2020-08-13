@@ -1146,7 +1146,6 @@ F 7 "JMK107C6475MA-T" H 8950 2150 50  0001 C CNN "Mfgrpart"
 	1    8950 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3750 3100
 Text Label 3800 2750 0    50   ~ 0
 USB1_VBUS_LV
 Text Label 5550 2350 2    50   ~ 0
@@ -1281,4 +1280,5 @@ F 7 "GRM033C80J224KE90D" H 6400 2900 50  0001 C CNN "Mfgrpart"
 	1    6400 2900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3750 3100
 $EndSCHEMATC
