@@ -745,6 +745,7 @@ F 4 "Yageo" H 1650 2300 50  0001 C CNN "Mfgr"
 F 5 "" H 1650 2300 50  0001 C CNN "Part"
 F 6 "311-100KNCT-ND" H 1650 2300 50  0001 C CNN "Vendorpart"
 F 7 "RC0201JR-07100KL" H 1650 2300 50  0001 C CNN "Mfgrpart"
+F 8 "DNP" V 1650 2300 50  0000 C CNN "Populate"
 	1    1650 2300
 	1    0    0    -1  
 $EndComp
