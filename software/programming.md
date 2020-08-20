@@ -111,6 +111,41 @@ Really perform this fuse programming? <y/N>
 y
 ```
 
+The higher 16-bits of fuse settings add bit 28, to enable boot from fuses.
+
+The lower 16-bits will be programmed as follows:
+
+```
+0x470[15:0] =
+    reserved [15] = 0
+    boot device emmc [14:12] = 010
+    port select (sd1) [11:10] = 0
+    power cycle enable [9] = 0
+    SD Loopback Clock Source SEL sdr50/sdr104 [8] = 0
+    Regular boot [7] = 0
+                                            0 - Regular
+                                            1 - Fast Boot
+    Bus Width [6:4] = 010
+                                            8-bit
+    Speed normal [3:2] = 00
+                                            00 - Normal
+                                            01 - High
+    Normal mode voltage 1.8V [1] = 1
+                                        USDHC1 IO VOLTAGE SELECTION (only for MMC/eMMC boot)
+                                            0 - 3.3 V
+                                            1 - 1.8 V
+    Mfr mode voltage 3.3V [0] = 0
+                                        USDHC2 IO VOLTAGE SELECTION (only for MMC/eMMC boot)
+                                            0 - 3.3 V
+                                            1 - 1.8 V
+```
+
+Note that there are a few unburned fuses that might enable enhanced features such as eMMC "fastboot" support, but in development [some problems were encountered enabling these features](https://community.nxp.com/thread/522197) so please take note and only do so at your own risk.
+
+![fusing table](/kimchi-micro/images/hardware/fusing.jpg)
+
+
+
 ## Program rootfs to eMMC
 
 If you are in the bootloader, you can switch back to fastboot mode:
