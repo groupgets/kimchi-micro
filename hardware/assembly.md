@@ -24,3 +24,12 @@ The [second side / front stencil fixture](https://github.com/groupgets/kimchi-mi
 In second-sided reflow, holding the board in a stickvice with PTFE jaws works well:
 
 ![front side reflow](/kimchi-micro/images/hardware/front-side-reflow.jpeg)
+
+## v0.9 Hardware Errata (rework items)
+
+As v0.9 boards are early-run, there are a few items that need to be fixed up. Some of these items are fixed in software or in updated versions of the BoM, but there are a couple minor cut-and-jumps that will have to be performed.
+
+* [cut and jump to pull up resistors R19/R20](https://github.com/groupgets/kimchi-micro/issues/4)
+* [cut and jump R51 to reconfigure BQ27426](https://github.com/groupgets/kimchi-micro/issues/5)
+
+See the [v0.9 errata](https://github.com/groupgets/kimchi-micro/issues/1) GitHub issue for the most up-to-date information.
