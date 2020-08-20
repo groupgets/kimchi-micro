@@ -1281,4 +1281,6 @@ F 7 "GRM033C80J224KE90D" H 6400 2900 50  0001 C CNN "Mfgrpart"
 	1    6400 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 9300 7950 0    50   ~ 0
+See rework notes (swapped sda/scl):\nhttps://github.com/groupgets/kimchi-micro/issues/4
 $EndSCHEMATC

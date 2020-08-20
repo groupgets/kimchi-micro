@@ -25,8 +25,8 @@ F 2 "mxenc:1775838-2_conn_only" H 7350 3750 50  0001 C CNN
 F 3 "~" H 7200 2600 50  0001 C CNN
 F 4 "TE" H 7350 3750 50  0001 C CNN "Mfgr"
 F 5 "" H 7350 3750 50  0001 C CNN "Part"
-F 6 "A123340CT-ND" H 7350 3750 50  0001 C CNN "Vendorpart"
-F 7 "1775838-2" H 7350 3750 50  0001 C CNN "Mfgrpart"
+F 6 "A125147CT-ND" H 7350 3750 50  0001 C CNN "Vendorpart"
+F 7 "2041262-1" H 7350 3750 50  0001 C CNN "Mfgrpart"
 	1    7350 3750
 	1    0    0    1   
 $EndComp
@@ -676,4 +676,8 @@ F 7 "9774035243R‎" H 2750 6900 50  0001 C CNN "Mfgrpart"
 	1    2750 6900
 	1    0    0    -1  
 $EndComp
+Text Notes 5100 6100 0    50   ~ 0
+See rework notes (DNP C125-C127):\nhttps://github.com/groupgets/kimchi-micro/issues/3
+Text Notes 8350 3850 0    50   ~ 0
+See rework notes (connector BOM change):\nhttps://github.com/groupgets/kimchi-micro/issues/7
 $EndSCHEMATC

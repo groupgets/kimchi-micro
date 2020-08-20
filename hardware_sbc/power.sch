@@ -1906,6 +1906,7 @@ F 4 "1727-2231-1-ND" H 3605 9659 50  0001 L CNN "Vendorpart"
 F 5 "NXP" H 3400 9750 50  0001 C CNN "Mfgr"
 F 6 "" H 3400 9750 50  0001 C CNN "Part"
 F 7 "NX7002BKMB" H 3400 9750 50  0001 C CNN "Mfgrpart"
+F 8 "DNP" H 3700 9600 50  0000 C CNN "Populate"
 	1    3400 9750
 	1    0    0    -1  
 $EndComp
@@ -2126,4 +2127,6 @@ Text Notes 12750 6900 0    50   ~ 0
 Ref: CU-LC-18650WR6.0A-V1
 Text Notes 5800 4300 1    50   ~ 0
 Ttotal_tmr =\n4.9 Hr @1A
+Text Notes 1150 9550 0    50   ~ 0
+See rework notes:\nhttps://github.com/groupgets/kimchi-micro/issues/5
 $EndSCHEMATC
