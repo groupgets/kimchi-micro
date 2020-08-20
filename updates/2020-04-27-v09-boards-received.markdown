@@ -3,6 +3,7 @@ layout: post
 title:  "Kimchi micro v0.9 boards received"
 date:   2020-04-27 20:30:00 -0700
 categories: jekyll update
+parent: Updates
 ---
 A few days ago we received the first boards for v0.9, and a USB hub module.
 

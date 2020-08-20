@@ -3,6 +3,7 @@ layout: post
 title:  "Prototype v0.9 boards assembled and brought up"
 date:   2020-08-19 20:30:00 -0700
 categories: jekyll update
+parent: Updates
 ---
 It has been a long time since updates here, but a lot has happened, and the
 design has finally been brought up to fully functional.
