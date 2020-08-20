@@ -46,4 +46,4 @@ aux_links:
 
 # Footer content
 # appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 GroupGets, LLC. Distributed under the <a href=\"https://github.com/groupgets/kimchi-micro/blob/master/LICENSE\">MIT license.</a>"
+footer_content: "Copyright &copy; 2020 GroupGets, LLC. This documentation is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 Generic License</a>.<br/><a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" /></a>"
