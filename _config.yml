@@ -43,3 +43,7 @@ aux_links:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Footer content
+# appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2020 GroupGets, LLC. Distributed under the <a href=\"https://github.com/groupgets/kimchi-micro/blob/master/LICENSE\">MIT license.</a>"
