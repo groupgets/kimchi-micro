@@ -22,7 +22,7 @@ git submodule update --init
 ## Create a build directory
 
 ```
-MACHINE=kimchi DISTRO=freescale-wayland . ./setup-environment build-kimchi
+MACHINE=kimchi DISTRO=fslc-wayland . ./setup-environment build-kimchi
 ```
 
 ## Build an image
