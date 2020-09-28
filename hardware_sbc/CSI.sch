@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "kimχ micro"
-Date "2020-03-05"
-Rev "0.9"
+Date "2020-09-27"
+Rev "0.91"
 Comp "GroupGets, LLC"
 Comment1 ""
 Comment2 "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"

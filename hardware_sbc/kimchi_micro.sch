@@ -5,8 +5,8 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 10
 Title "kimχ micro"
-Date "2020-03-05"
-Rev "0.9"
+Date "2020-09-27"
+Rev "0.91"
 Comp "GroupGets, LLC"
 Comment1 ""
 Comment2 "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2"
