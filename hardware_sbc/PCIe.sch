@@ -541,21 +541,6 @@ Wire Wire Line
 	5050 5500 5250 5500
 Connection ~ 5250 5500
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5EF33699
-P 2750 6400
-F 0 "H1" H 2850 6494 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2850 6403 50  0000 L CNN
-F 2 "mxenc:MountingHole_M2_Standoff" H 2750 6400 50  0001 C CNN
-F 3 "~" H 2750 6400 50  0001 C CNN
-F 4 "732-7088-1-ND‎" H 2850 6312 50  0000 L CNN "Vendorpart"
-F 5 "Wurth" H 2750 6400 50  0001 C CNN "Mfgr"
-F 6 "" H 2750 6400 50  0001 C CNN "Part"
-F 7 "9774035243R‎" H 2750 6400 50  0001 C CNN "Mfgrpart"
-	1    2750 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0224
 U 1 1 5EF36759
 P 2750 6500
@@ -605,12 +590,9 @@ U 1 1 5EF4EB1A
 P 3650 6400
 F 0 "H2" H 3750 6494 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3750 6403 50  0000 L CNN
-F 2 "mxenc:MountingHole_M2_Standoff" H 3650 6400 50  0001 C CNN
-F 3 "~" H 3650 6400 50  0001 C CNN
-F 4 "732-7088-1-ND‎" H 3750 6312 50  0000 L CNN "Vendorpart"
-F 5 "Wurth" H 3650 6400 50  0001 C CNN "Mfgr"
-F 6 "" H 3650 6400 50  0001 C CNN "Part"
-F 7 "9774035243R‎" H 3650 6400 50  0001 C CNN "Mfgrpart"
+F 2 "mxenc:MountingHole_M2_Hole" H 3650 6400 50  0001 C CNN
+F 3 "" H 3650 6400 50  0001 C CNN
+F 4 "" H 3650 6400 50  0001 C CNN "Part"
 	1    3650 6400
 	1    0    0    -1  
 $EndComp
@@ -620,12 +602,9 @@ U 1 1 5EF4F011
 P 3650 6900
 F 0 "H4" H 3750 6994 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3750 6903 50  0000 L CNN
-F 2 "mxenc:MountingHole_M2_Standoff" H 3650 6900 50  0001 C CNN
-F 3 "~" H 3650 6900 50  0001 C CNN
-F 4 "732-7088-1-ND‎" H 3750 6812 50  0000 L CNN "Vendorpart"
-F 5 "Wurth" H 3650 6900 50  0001 C CNN "Mfgr"
-F 6 "" H 3650 6900 50  0001 C CNN "Part"
-F 7 "9774035243R‎" H 3650 6900 50  0001 C CNN "Mfgrpart"
+F 2 "mxenc:MountingHole_M2_Hole" H 3650 6900 50  0001 C CNN
+F 3 "" H 3650 6900 50  0001 C CNN
+F 4 "" H 3650 6900 50  0001 C CNN "Part"
 	1    3650 6900
 	1    0    0    -1  
 $EndComp
@@ -635,12 +614,9 @@ U 1 1 5EF4F2A0
 P 2750 6900
 F 0 "H3" H 2850 6994 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2850 6903 50  0000 L CNN
-F 2 "mxenc:MountingHole_M2_Standoff" H 2750 6900 50  0001 C CNN
-F 3 "~" H 2750 6900 50  0001 C CNN
-F 4 "732-7088-1-ND‎" H 2850 6812 50  0000 L CNN "Vendorpart"
-F 5 "Wurth" H 2750 6900 50  0001 C CNN "Mfgr"
-F 6 "" H 2750 6900 50  0001 C CNN "Part"
-F 7 "9774035243R‎" H 2750 6900 50  0001 C CNN "Mfgrpart"
+F 2 "mxenc:MountingHole_M2_Hole" H 2750 6900 50  0001 C CNN
+F 3 "" H 2750 6900 50  0001 C CNN
+F 4 "" H 2750 6900 50  0001 C CNN "Part"
 	1    2750 6900
 	1    0    0    -1  
 $EndComp
@@ -783,6 +759,18 @@ F 5 "" H 5750 5350 50  0001 C CNN "Part"
 F 6 "490-13970-1-ND" H 5750 5350 50  0001 C CNN "Vendorpart"
 F 7 "GRM31CR60J227ME11L" H 5750 5350 50  0001 C CNN "Mfgrpart"
 	1    5750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EF33699
+P 2750 6400
+F 0 "H1" H 2850 6494 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2850 6403 50  0000 L CNN
+F 2 "mxenc:MountingHole_M2_Hole" H 2750 6400 50  0001 C CNN
+F 3 "" H 2750 6400 50  0001 C CNN
+F 4 "" H 2750 6400 50  0001 C CNN "Part"
+	1    2750 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
