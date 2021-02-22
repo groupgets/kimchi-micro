@@ -1553,7 +1553,7 @@ F 5 "Panasonic" H 1600 6800 50  0001 C CNN "Mfgr"
 F 6 "" H 1600 6800 50  0001 C CNN "Part"
 F 7 "EVQ-P7J01P" H 1600 6800 50  0001 C CNN "Mfgrpart"
 	1    1600 6800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
