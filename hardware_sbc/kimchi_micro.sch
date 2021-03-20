@@ -966,6 +966,7 @@ F0 "Expansion" 50
 F1 "expansion.sch" 50
 F2 "GPIO3[8]" I L 11000 5750 50 
 F3 "GPIO3[9]" I L 11000 5850 50 
+F4 "VCHG" O L 11000 6100 50 
 $EndSheet
 Wire Wire Line
 	5550 7100 5100 7100
@@ -1697,4 +1698,8 @@ F 7 "RC0201JR-074K7L" H 6800 1700 50  0001 C CNN "Mfgrpart"
 	1    6800 1700
 	0    -1   -1   0   
 $EndComp
+Text Label 10850 6100 2    50   ~ 0
+VCHG
+Wire Wire Line
+	10850 6100 11000 6100
 $EndSCHEMATC

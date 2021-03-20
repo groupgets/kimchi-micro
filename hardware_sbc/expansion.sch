@@ -247,16 +247,6 @@ Text GLabel 6000 3100 0    50   Input ~ 0
 I2C3_SCL
 Text GLabel 6000 2900 0    50   Input ~ 0
 I2C4_SCL
-Text GLabel 6500 2100 2    50   Input ~ 0
-UIM_RESET_N
-Text GLabel 6500 2000 2    50   Input ~ 0
-UIM_CLK
-Text GLabel 6500 1900 2    50   Input ~ 0
-UIM_DATA
-Text GLabel 6500 1800 2    50   Input ~ 0
-UIM_PWR
-Text GLabel 6500 2200 2    50   Input ~ 0
-UIM_VPP
 $Comp
 L power:GND #PWR0187
 U 1 1 5F4229EE
@@ -678,4 +668,30 @@ Wire Wire Line
 Connection ~ 9950 1600
 Wire Wire Line
 	9950 1600 9950 1700
+Text HLabel 7250 1050 1    50   Output ~ 0
+VCHG
+Wire Wire Line
+	6500 1800 7250 1800
+Wire Wire Line
+	7250 1800 7250 1050
+Wire Wire Line
+	6500 1900 7250 1900
+Wire Wire Line
+	7250 1900 7250 1800
+Connection ~ 7250 1800
+Wire Wire Line
+	6500 2000 7250 2000
+Wire Wire Line
+	7250 2000 7250 1900
+Connection ~ 7250 1900
+Wire Wire Line
+	6500 2100 7250 2100
+Wire Wire Line
+	7250 2100 7250 2000
+Connection ~ 7250 2000
+Wire Wire Line
+	6500 2200 7250 2200
+Wire Wire Line
+	7250 2200 7250 2100
+Connection ~ 7250 2100
 $EndSCHEMATC
