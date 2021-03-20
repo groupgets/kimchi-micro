@@ -437,8 +437,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2800 7400 2800
 Wire Wire Line
-	8850 2600 8850 2500
-Wire Wire Line
 	8850 2500 7250 2500
 $Comp
 L Device:C C?
@@ -920,8 +918,6 @@ $EndComp
 Wire Wire Line
 	9150 2900 9150 3100
 Wire Wire Line
-	8850 2900 8850 3100
-Wire Wire Line
 	8850 3100 9150 3100
 Connection ~ 9150 3100
 Wire Wire Line
@@ -934,30 +930,7 @@ Connection ~ 10400 2400
 Wire Wire Line
 	10400 2400 10650 2400
 Wire Wire Line
-	9150 2400 9450 2400
-Wire Wire Line
 	9900 2400 10150 2400
-$Comp
-L Device:C C135
-U 1 1 5EFB836F
-P 9450 2750
-F 0 "C135" H 9565 2796 50  0000 L CNN
-F 1 "DNP" H 9565 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9488 2600 50  0001 C CNN
-F 3 "~" H 9450 2750 50  0001 C CNN
-F 4 "DNP" H 9450 2750 50  0001 C CNN "Populate"
-	1    9450 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 3100 9450 3100
-Wire Wire Line
-	9450 3100 9450 2900
-Wire Wire Line
-	9450 2600 9450 2400
-Connection ~ 9450 2400
-Wire Wire Line
-	9450 2400 9900 2400
 $Comp
 L Device:C C?
 U 1 1 5F019947
@@ -1031,21 +1004,6 @@ F 5 "Yageo" H 8600 3250 50  0001 C CNN "Mfgr"
 F 6 "" H 8600 3250 50  0001 C CNN "Part"
 F 7 "RC0201FR-0778R7L" H 8600 3250 50  0001 C CNN "Mfgrpart"
 	1    8600 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R42
-U 1 1 5EF37B7F
-P 8850 2750
-F 0 "R42" H 8850 2600 50  0000 R CNN
-F 1 "10K 1%" H 8850 2900 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 8780 2750 50  0001 C CNN
-F 3 "~" H 8850 2750 50  0001 C CNN
-F 4 "311-10.0KMCT-ND" H 8780 2841 50  0001 R CNN "Vendorpart"
-F 5 "Yageo" H 8850 2750 50  0001 C CNN "Mfgr"
-F 6 "" H 8850 2750 50  0001 C CNN "Part"
-F 7 "RC0201FR-0710KL" H 8850 2750 50  0001 C CNN "Mfgrpart"
-	1    8850 2750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2114,14 +2072,18 @@ $EndComp
 Wire Wire Line
 	9700 4850 9850 4850
 $Comp
-L power:GND1 #PWR?
+L power:GND1 #PWR0158
 U 1 1 6057737F
 P 7500 6750
-F 0 "#PWR?" H 7500 6500 50  0001 C CNN
+F 0 "#PWR0158" H 7500 6500 50  0001 C CNN
 F 1 "GND1" H 7505 6577 50  0000 C CNN
 F 2 "" H 7500 6750 50  0001 C CNN
 F 3 "" H 7500 6750 50  0001 C CNN
 	1    7500 6750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8850 2500 8850 3100
+Wire Wire Line
+	9150 2400 9900 2400
 $EndSCHEMATC
