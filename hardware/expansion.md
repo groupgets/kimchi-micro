@@ -31,3 +31,4 @@ The following is a list of μLids that have been created:
 * [CrossLink DSI-HDMI lid](https://github.com/gregdavill/kimchi-crosslink.git) by [Greg Davill](https://github.com/gregdavill)
 * [Ethernet lid](https://github.com/adamjvr/kimchi-ethernet-lid) by [Adam Vadala Roth](https://github.com/adamjvr)
 * [Feather lid](https://github.com/kekiefer/kimchi-feather-ulid) by [Kurt Kiefer](https://github.com/kekiefer)
+* [CSI camera lid](https://github.com/kekiefer/kimchi-camera-lid) by [Kurt Kiefer](https://github.com/kekiefer)
