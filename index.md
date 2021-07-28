@@ -5,6 +5,8 @@ layout: home
 The kimχ micro is an open hardware single board computer for the NXP i.MX8M Mini Application
 processor.
 
+![kimchi-pcb-three-quarters](images/kimchi-34.jpg)
+
 ![kimchi-pcb-front](images/kimchi-front.jpg)
 
 ![kimchi-pcb-back](images/kimchi-back.jpg)
