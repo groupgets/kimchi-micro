@@ -17,8 +17,8 @@ title: "kimχ micro"
 email: contact@groupgets.com
 description: >- # this means to ignore newlines until "baseurl:"
   kimχ micro is a small and spicy open hardware embedded SBC that offers tons of versitility for many different applications.
-baseurl: "/kimchi-micro" # the subpath of your site, e.g. /blog
-url: "https://labs.groupgets.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://kimchi.groupgets.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: groupgetscom
 github_username:  groupgets
 
