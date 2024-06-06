@@ -3,7 +3,7 @@
 kimχ micro is a small and spicy open hardware embedded SBC that offers tons of
 versitility for many different applications.
 
-![kimchi micro](https://labs.groupgets.com/kimchi-micro/images/kimchi-front.jpg)
+![kimchi micro](https://kimchi.groupgets.com/images/kimchi-front.jpg)
 
 ## Work in progress
 
