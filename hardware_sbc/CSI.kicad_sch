@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4a0a50c0-d8cd-45b3-b9d8-ac55f4fce046")
+	(paper "A4")
+	(title_block
+		(title "kimχ micro")
+		(date "2020-09-27")
+		(rev "0.91")
+		(company "GroupGets, LLC")
+		(comment 2 "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
+		(comment 3 "Licensed CERN-OHL-S V.2")
+		(comment 4 "Copyright © 2020 GroupGets, LLC")
+	)
+	(lib_symbols)
+)
