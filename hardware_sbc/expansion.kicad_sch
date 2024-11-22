@@ -12277,6 +12277,7 @@
 	)
 	(label "ENET_MDC"
 		(at 218.44 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12287,6 +12288,7 @@
 	)
 	(label "USDHC3_CMD"
 		(at 152.4 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12297,6 +12299,7 @@
 	)
 	(label "ENET_TX_CTL"
 		(at 132.08 172.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12307,6 +12310,7 @@
 	)
 	(label "USDHC3_DATA2"
 		(at 152.4 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12317,6 +12321,7 @@
 	)
 	(label "CAM_D1_P"
 		(at 57.15 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12327,6 +12332,7 @@
 	)
 	(label "CAM_CK_N"
 		(at 57.15 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12337,6 +12343,7 @@
 	)
 	(label "CAM_D2_P"
 		(at 165.1 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12347,6 +12354,7 @@
 	)
 	(label "DISP_D0_N"
 		(at 165.1 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12357,6 +12365,7 @@
 	)
 	(label "DISP_D1_N"
 		(at 165.1 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12367,6 +12376,7 @@
 	)
 	(label "DISP_D3_N"
 		(at 165.1 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12377,6 +12387,7 @@
 	)
 	(label "USDHC3_CLK"
 		(at 80.01 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12387,6 +12398,7 @@
 	)
 	(label "ENET_RD1"
 		(at 218.44 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12397,6 +12409,7 @@
 	)
 	(label "ENET_RD2"
 		(at 218.44 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12407,6 +12420,7 @@
 	)
 	(label "DISP_D2_N"
 		(at 57.15 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12417,6 +12431,7 @@
 	)
 	(label "DISP_D1_P"
 		(at 165.1 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12427,6 +12442,7 @@
 	)
 	(label "DISP_D0_P"
 		(at 57.15 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12437,6 +12453,7 @@
 	)
 	(label "ENET_TD2"
 		(at 218.44 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12447,6 +12464,7 @@
 	)
 	(label "CAM_D0_N"
 		(at 57.15 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12457,6 +12475,7 @@
 	)
 	(label "CAM_CK_N"
 		(at 165.1 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12467,6 +12486,7 @@
 	)
 	(label "DISP_CK_P"
 		(at 57.15 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12477,6 +12497,7 @@
 	)
 	(label "ENET_RD1"
 		(at 132.08 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12487,6 +12508,7 @@
 	)
 	(label "USDHC3_DATA1"
 		(at 152.4 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12497,6 +12519,7 @@
 	)
 	(label "USDHC3_DATA2"
 		(at 80.01 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12507,6 +12530,7 @@
 	)
 	(label "ENET_TD0"
 		(at 132.08 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12517,6 +12541,7 @@
 	)
 	(label "CAM_D3_N"
 		(at 57.15 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12527,6 +12552,7 @@
 	)
 	(label "DISP_D2_P"
 		(at 165.1 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12537,6 +12563,7 @@
 	)
 	(label "CAM_D0_P"
 		(at 57.15 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12547,6 +12574,7 @@
 	)
 	(label "ENET_RXC"
 		(at 218.44 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12557,6 +12585,7 @@
 	)
 	(label "ENET_RD2"
 		(at 132.08 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12567,6 +12596,7 @@
 	)
 	(label "CAM_D3_P"
 		(at 57.15 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12577,6 +12607,7 @@
 	)
 	(label "DISP_D3_P"
 		(at 165.1 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12587,6 +12618,7 @@
 	)
 	(label "USDHC3_DATA1"
 		(at 80.01 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12597,6 +12629,7 @@
 	)
 	(label "USDHC3_DATA3"
 		(at 152.4 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12607,6 +12640,7 @@
 	)
 	(label "ENET_RD3"
 		(at 132.08 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12617,6 +12651,7 @@
 	)
 	(label "ENET_TXC"
 		(at 218.44 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12627,6 +12662,7 @@
 	)
 	(label "CAM_D0_P"
 		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12637,6 +12673,7 @@
 	)
 	(label "ENET_MDIO"
 		(at 132.08 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12647,6 +12684,7 @@
 	)
 	(label "DISP_D3_N"
 		(at 57.15 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12657,6 +12695,7 @@
 	)
 	(label "ENET_RX_CTL"
 		(at 132.08 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12667,6 +12706,7 @@
 	)
 	(label "USDHC3_CLK"
 		(at 152.4 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12677,6 +12717,7 @@
 	)
 	(label "ENET_RXC"
 		(at 132.08 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12687,6 +12728,7 @@
 	)
 	(label "ENET_TD0"
 		(at 218.44 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12697,6 +12739,7 @@
 	)
 	(label "CAM_D0_N"
 		(at 165.1 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12707,6 +12750,7 @@
 	)
 	(label "DISP_D3_P"
 		(at 57.15 180.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12717,6 +12761,7 @@
 	)
 	(label "CAM_D3_N"
 		(at 165.1 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12727,6 +12772,7 @@
 	)
 	(label "DISP_D2_N"
 		(at 165.1 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12737,6 +12783,7 @@
 	)
 	(label "USDHC3_DATA0"
 		(at 152.4 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12747,6 +12794,7 @@
 	)
 	(label "ENET_RD0"
 		(at 218.44 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12757,6 +12805,7 @@
 	)
 	(label "CAM_D2_N"
 		(at 57.15 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12767,6 +12816,7 @@
 	)
 	(label "DISP_D0_N"
 		(at 57.15 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12777,6 +12827,7 @@
 	)
 	(label "ENET_MDIO"
 		(at 218.44 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12787,6 +12838,7 @@
 	)
 	(label "CAM_CK_P"
 		(at 57.15 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12797,6 +12849,7 @@
 	)
 	(label "USDHC3_CMD"
 		(at 80.01 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12807,6 +12860,7 @@
 	)
 	(label "USDHC3_DATA3"
 		(at 80.01 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12817,6 +12871,7 @@
 	)
 	(label "DISP_D0_P"
 		(at 165.1 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12827,6 +12882,7 @@
 	)
 	(label "ENET_TXC"
 		(at 132.08 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12837,6 +12893,7 @@
 	)
 	(label "ENET_TD2"
 		(at 132.08 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,6 +12904,7 @@
 	)
 	(label "CAM_D1_N"
 		(at 57.15 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12857,6 +12915,7 @@
 	)
 	(label "ENET_TX_CTL"
 		(at 218.44 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12867,6 +12926,7 @@
 	)
 	(label "DISP_CK_P"
 		(at 165.1 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12877,6 +12937,7 @@
 	)
 	(label "ENET_RD3"
 		(at 218.44 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12887,6 +12948,7 @@
 	)
 	(label "CAM_CK_P"
 		(at 165.1 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12897,6 +12959,7 @@
 	)
 	(label "CAM_D1_P"
 		(at 165.1 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12907,6 +12970,7 @@
 	)
 	(label "CAM_D2_N"
 		(at 165.1 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12917,6 +12981,7 @@
 	)
 	(label "ENET_TD3"
 		(at 132.08 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12927,6 +12992,7 @@
 	)
 	(label "ENET_TD1"
 		(at 218.44 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12937,6 +13003,7 @@
 	)
 	(label "ENET_MDC"
 		(at 132.08 180.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12947,6 +13014,7 @@
 	)
 	(label "DISP_D1_P"
 		(at 57.15 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12957,6 +13025,7 @@
 	)
 	(label "DISP_D2_P"
 		(at 57.15 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12967,6 +13036,7 @@
 	)
 	(label "ENET_RD0"
 		(at 132.08 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12977,6 +13047,7 @@
 	)
 	(label "DISP_CK_N"
 		(at 57.15 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12987,6 +13058,7 @@
 	)
 	(label "CAM_D1_N"
 		(at 165.1 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12997,6 +13069,7 @@
 	)
 	(label "CAM_D3_P"
 		(at 165.1 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13007,6 +13080,7 @@
 	)
 	(label "DISP_D1_N"
 		(at 57.15 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13017,6 +13091,7 @@
 	)
 	(label "USDHC3_DATA0"
 		(at 80.01 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13027,6 +13102,7 @@
 	)
 	(label "DISP_CK_N"
 		(at 165.1 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13037,6 +13113,7 @@
 	)
 	(label "ENET_TD1"
 		(at 132.08 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13047,6 +13124,7 @@
 	)
 	(label "ENET_RX_CTL"
 		(at 218.44 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13057,6 +13135,7 @@
 	)
 	(label "ENET_TD3"
 		(at 218.44 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13067,6 +13146,7 @@
 	)
 	(label "CAM_D2_P"
 		(at 57.15 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14058,6 +14138,7 @@
 	(hierarchical_label "VCHG"
 		(shape output)
 		(at 184.15 26.67 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14069,6 +14150,7 @@
 	(hierarchical_label "GPIO3[8]"
 		(shape input)
 		(at 91.44 27.94 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14080,6 +14162,7 @@
 	(hierarchical_label "GPIO3[9]"
 		(shape input)
 		(at 93.98 27.94 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14097,7 +14180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e367446")
-		(property "Reference" "J11"
+		(property "Reference" "J?"
 			(at 158.75 30.0482 0)
 			(effects
 				(font
@@ -14380,7 +14463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e36744c")
-		(property "Reference" "J12"
+		(property "Reference" "J?"
 			(at 224.79 30.0482 0)
 			(effects
 				(font
@@ -14663,7 +14746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e38b0f0")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 42.7482 87.249 0)
 			(effects
 				(font
@@ -16180,7 +16263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3ab6a2")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 42.7482 143.129 0)
 			(effects
 				(font
@@ -17821,13 +17904,13 @@
 	(symbol
 		(lib_id "mxenc:MIMX8MM6DVTLZAA")
 		(at 52.07 91.44 0)
-		(unit 1)
+		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e66e0e3")
-		(property "Reference" "U1H"
+		(property "Reference" "U1"
 			(at 54.8132 18.669 0)
 			(effects
 				(font
@@ -19325,8 +19408,8 @@
 		(instances
 			(project "kimchi_micro"
 				(path "/394ea9d6-84ac-414f-b42c-59edf258c746/00000000-0000-0000-0000-00005e34baa5"
-					(reference "U1H")
-					(unit 1)
+					(reference "U1")
+					(unit 8)
 				)
 			)
 		)
@@ -19400,13 +19483,13 @@
 		(lib_id "mxenc:MIMX8MM6DVTLZAA")
 		(at 109.22 118.11 0)
 		(mirror x)
-		(unit 1)
+		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eacf487")
-		(property "Reference" "U1J"
+		(property "Reference" "U1"
 			(at 90.7288 163.0934 0)
 			(effects
 				(font
@@ -20906,8 +20989,8 @@
 		(instances
 			(project "kimchi_micro"
 				(path "/394ea9d6-84ac-414f-b42c-59edf258c746/00000000-0000-0000-0000-00005e34baa5"
-					(reference "U1J")
-					(unit 1)
+					(reference "U1")
+					(unit 10)
 				)
 			)
 		)

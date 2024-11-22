@@ -12061,6 +12061,7 @@
 	)
 	(label "PCIE_CLK_P"
 		(at 152.4 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12071,6 +12072,7 @@
 	)
 	(label "PCIE_RXN_P"
 		(at 152.4 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12081,6 +12083,7 @@
 	)
 	(label "PCIE_RXN_N"
 		(at 152.4 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12091,6 +12094,7 @@
 	)
 	(label "PCIE_CLK_N"
 		(at 152.4 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12101,6 +12105,7 @@
 	)
 	(label "PCIE_TXN_P"
 		(at 152.4 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12111,6 +12116,7 @@
 	)
 	(label "PCIE_TXN_1_P"
 		(at 125.73 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12121,6 +12127,7 @@
 	)
 	(label "PCIE_TXN_N"
 		(at 152.4 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12131,6 +12138,7 @@
 	)
 	(label "PCIE_TXN_1_N"
 		(at 125.73 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12282,6 +12290,7 @@
 	(hierarchical_label "PCIE_DISB"
 		(shape input)
 		(at 133.35 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12293,6 +12302,7 @@
 	(hierarchical_label "PCIE_3V3_EN"
 		(shape input)
 		(at 35.56 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12304,6 +12314,7 @@
 	(hierarchical_label "PCIE_RSTB"
 		(shape input)
 		(at 133.35 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12315,6 +12326,7 @@
 	(hierarchical_label "SMB_DATA"
 		(shape input)
 		(at 160.02 60.96 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12326,6 +12338,7 @@
 	(hierarchical_label "SMB_CLK"
 		(shape input)
 		(at 162.56 60.96 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12344,7 +12357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d31b8e0")
-		(property "Reference" "J5"
+		(property "Reference" "J?"
 			(at 185.5216 63.6524 90)
 			(effects
 				(font
@@ -12600,13 +12613,13 @@
 	(symbol
 		(lib_id "mxenc:MIMX8MM6DVTLZAA")
 		(at 93.98 156.21 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d31ca4a")
-		(property "Reference" "U1C"
+		(property "Reference" "U1"
 			(at 96.7232 83.439 0)
 			(effects
 				(font
@@ -14104,8 +14117,8 @@
 		(instances
 			(project "kimchi_micro"
 				(path "/394ea9d6-84ac-414f-b42c-59edf258c746/00000000-0000-0000-0000-00005d31363c"
-					(reference "U1C")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -14835,7 +14848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6b4e4c")
-		(property "Reference" "C130"
+		(property "Reference" "C?"
 			(at 200.66 133.35 0)
 			(effects
 				(font
@@ -14944,7 +14957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6c4737")
-		(property "Reference" "C131"
+		(property "Reference" "C?"
 			(at 207.01 133.35 0)
 			(effects
 				(font
@@ -15659,7 +15672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6d4b0e")
-		(property "Reference" "C124"
+		(property "Reference" "C?"
 			(at 139.7 133.35 0)
 			(effects
 				(font

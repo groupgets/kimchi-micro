@@ -12068,6 +12068,7 @@
 	)
 	(label "VSF3"
 		(at 95.25 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12078,6 +12079,7 @@
 	)
 	(label "EMMC_RST"
 		(at 167.64 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12088,6 +12090,7 @@
 	)
 	(label "VSF4"
 		(at 95.25 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12098,6 +12101,7 @@
 	)
 	(label "SD_DAT0"
 		(at 240.03 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12108,6 +12112,7 @@
 	)
 	(label "RFU2"
 		(at 95.25 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12118,6 +12123,7 @@
 	)
 	(label "VSF0"
 		(at 95.25 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12128,6 +12134,7 @@
 	)
 	(label "EMMC_DAT2"
 		(at 167.64 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12138,6 +12145,7 @@
 	)
 	(label "EMMC_RCLK"
 		(at 167.64 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12148,6 +12156,7 @@
 	)
 	(label "EMMC_VDDI"
 		(at 88.9 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12158,6 +12167,7 @@
 	)
 	(label "SD_DAT3"
 		(at 240.03 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12168,6 +12178,7 @@
 	)
 	(label "EMMC_DAT7"
 		(at 167.64 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12178,6 +12189,7 @@
 	)
 	(label "SD_CD"
 		(at 240.03 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12188,6 +12200,7 @@
 	)
 	(label "EMMC_CMD"
 		(at 167.64 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12198,6 +12211,7 @@
 	)
 	(label "EMMC_DAT1"
 		(at 167.64 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12208,6 +12222,7 @@
 	)
 	(label "VSF2"
 		(at 95.25 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12218,6 +12233,7 @@
 	)
 	(label "EMMC_DAT5"
 		(at 167.64 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12228,6 +12244,7 @@
 	)
 	(label "EMMC_CLK"
 		(at 167.64 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12238,6 +12255,7 @@
 	)
 	(label "SD_CLK"
 		(at 240.03 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12248,6 +12266,7 @@
 	)
 	(label "EMMC_DAT4"
 		(at 167.64 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12258,6 +12277,7 @@
 	)
 	(label "EMMC_DAT0"
 		(at 167.64 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12268,6 +12288,7 @@
 	)
 	(label "QRDY"
 		(at 156.21 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12278,6 +12299,7 @@
 	)
 	(label "SD_DAT1"
 		(at 240.03 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12288,6 +12310,7 @@
 	)
 	(label "EMMC_DAT6"
 		(at 167.64 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12298,6 +12321,7 @@
 	)
 	(label "VSF1"
 		(at 95.25 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12308,6 +12332,7 @@
 	)
 	(label "EMMC_DAT3"
 		(at 167.64 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12318,6 +12343,7 @@
 	)
 	(label "RFU1"
 		(at 95.25 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12328,6 +12354,7 @@
 	)
 	(label "RFU3"
 		(at 95.25 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12338,6 +12365,7 @@
 	)
 	(label "VSF6"
 		(at 95.25 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12348,6 +12376,7 @@
 	)
 	(label "SD_DAT2"
 		(at 240.03 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12358,6 +12387,7 @@
 	)
 	(label "VSF5"
 		(at 95.25 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12368,6 +12398,7 @@
 	)
 	(label "SD_CMD"
 		(at 240.03 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12379,13 +12410,13 @@
 	(symbol
 		(lib_id "mxenc:MIMX8MM6DVTLZAA")
 		(at 208.28 182.88 0)
-		(unit 1)
+		(unit 9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf6ab47")
-		(property "Reference" "U1I"
+		(property "Reference" "U1"
 			(at 208.28 110.109 0)
 			(effects
 				(font
@@ -13883,14 +13914,13 @@
 		(instances
 			(project "kimchi_micro"
 				(path "/394ea9d6-84ac-414f-b42c-59edf258c746/00000000-0000-0000-0000-00005dad658f"
-					(reference "U1I")
-					(unit 1)
+					(reference "U1")
+					(unit 9)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "mxenc:SDINBDG4-8G")
 		(lib_id "mxenc:SDINBDG4-8G")
 		(at 125.73 139.7 0)
 		(unit 1)
@@ -13900,7 +13930,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d196f4b")
 		(property "Reference" "U7"
-			(at 94.1578 138.5316 0)
+			(at 126.238 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +13939,7 @@
 			)
 		)
 		(property "Value" "SDINBDG4-8G"
-			(at 94.1578 140.843 0)
+			(at 131.318 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)

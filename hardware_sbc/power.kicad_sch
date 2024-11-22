@@ -7669,6 +7669,7 @@
 	)
 	(label "VBATT"
 		(at 101.6 243.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,6 +7680,7 @@
 	)
 	(label "VCC"
 		(at 184.15 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7689,6 +7691,7 @@
 	)
 	(label "VCC"
 		(at 77.47 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7699,6 +7702,7 @@
 	)
 	(label "PACKP_K"
 		(at 106.68 214.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7709,6 +7713,7 @@
 	)
 	(label "VBATT_K"
 		(at 53.34 190.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7719,6 +7724,7 @@
 	)
 	(label "VBATT"
 		(at 311.15 182.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,6 +7735,7 @@
 	)
 	(label "ISET"
 		(at 148.59 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7739,6 +7746,7 @@
 	)
 	(label "~{BOOST}"
 		(at 271.78 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,6 +7757,7 @@
 	)
 	(label "VBATT"
 		(at 184.15 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7759,6 +7768,7 @@
 	)
 	(label "ILIM"
 		(at 148.59 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7769,6 +7779,7 @@
 	)
 	(label "CHG_EN"
 		(at 80.01 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7779,6 +7790,7 @@
 	)
 	(label "~{ACOK}"
 		(at 184.15 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7789,6 +7801,7 @@
 	)
 	(label "IB"
 		(at 184.15 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7799,6 +7812,7 @@
 	)
 	(label "FB_DIV"
 		(at 229.87 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7809,6 +7823,7 @@
 	)
 	(label "~{CHG}"
 		(at 184.15 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7819,6 +7834,7 @@
 	)
 	(label "VCC"
 		(at 77.47 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7829,6 +7845,7 @@
 	)
 	(label "~{CHG}"
 		(at 271.78 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,6 +7856,7 @@
 	)
 	(label "VSYS_K"
 		(at 106.68 217.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7849,6 +7867,7 @@
 	)
 	(label "VBATT_K"
 		(at 83.82 240.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7859,6 +7878,7 @@
 	)
 	(label "~{ACOK}"
 		(at 271.78 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,6 +7889,7 @@
 	)
 	(label "OLIM"
 		(at 184.15 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7879,6 +7900,7 @@
 	)
 	(label "VBATT"
 		(at 213.36 105.41 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7889,6 +7911,7 @@
 	)
 	(label "PACKP_K"
 		(at 83.82 243.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7899,6 +7922,7 @@
 	)
 	(label "NTC"
 		(at 341.63 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7909,6 +7933,7 @@
 	)
 	(label "VBATT"
 		(at 311.15 151.13 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7919,6 +7944,7 @@
 	)
 	(label "CHG_EN"
 		(at 148.59 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7929,6 +7955,7 @@
 	)
 	(label "VCC"
 		(at 90.17 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7939,6 +7966,7 @@
 	)
 	(label "CSP"
 		(at 101.6 247.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7949,6 +7977,7 @@
 	)
 	(label "GPOUT"
 		(at 68.58 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7959,6 +7988,7 @@
 	)
 	(label "VB"
 		(at 184.15 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7969,6 +7999,7 @@
 	)
 	(label "COUT"
 		(at 153.67 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7979,6 +8010,7 @@
 	)
 	(label "VBATT"
 		(at 199.39 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7989,6 +8021,7 @@
 	)
 	(label "VSYS_K"
 		(at 83.82 247.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7999,6 +8032,7 @@
 	)
 	(label "VBATT"
 		(at 101.6 240.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8009,6 +8043,7 @@
 	)
 	(label "TMR"
 		(at 148.59 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8019,6 +8054,7 @@
 	)
 	(label "NTC"
 		(at 184.15 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8029,6 +8065,7 @@
 	)
 	(label "PWIN"
 		(at 148.59 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8039,6 +8076,7 @@
 	)
 	(label "SW"
 		(at 184.15 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8049,6 +8087,7 @@
 	)
 	(label "REG"
 		(at 148.59 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,6 +8098,7 @@
 	)
 	(label "BQ_VDD"
 		(at 107.95 207.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8069,6 +8109,7 @@
 	)
 	(label "DCHG_EN"
 		(at 148.59 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8079,6 +8120,7 @@
 	)
 	(label "NTC"
 		(at 270.51 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8089,6 +8131,7 @@
 	)
 	(label "FB"
 		(at 184.15 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8099,6 +8142,7 @@
 	)
 	(label "DCHG_EN"
 		(at 80.01 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8109,6 +8153,7 @@
 	)
 	(label "DOUT"
 		(at 154.94 212.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8119,6 +8164,7 @@
 	)
 	(label "~{BOOST}"
 		(at 184.15 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8129,6 +8175,7 @@
 	)
 	(label "NTC"
 		(at 306.07 193.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,6 +8186,7 @@
 	)
 	(label "FREQ"
 		(at 148.59 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8149,6 +8197,7 @@
 	)
 	(label "FREQ"
 		(at 92.71 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8159,6 +8208,7 @@
 	)
 	(label "VCC"
 		(at 246.38 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8169,6 +8219,7 @@
 	)
 	(label "VB"
 		(at 92.71 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8179,6 +8230,7 @@
 	)
 	(label "BIN"
 		(at 68.58 233.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8189,6 +8241,7 @@
 	)
 	(label "CSP"
 		(at 198.12 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8199,6 +8252,7 @@
 	)
 	(label "DOUT"
 		(at 153.67 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8209,6 +8263,7 @@
 	)
 	(label "COUT"
 		(at 198.12 212.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8220,6 +8275,7 @@
 	(hierarchical_label "GAUGE_SCL"
 		(shape input)
 		(at 33.02 212.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8231,6 +8287,7 @@
 	(hierarchical_label "VCHG"
 		(shape input)
 		(at 49.53 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8242,6 +8299,7 @@
 	(hierarchical_label "GAUGE_SDA"
 		(shape bidirectional)
 		(at 33.02 214.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8325,7 +8383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ff88")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR?"
 			(at 74.93 156.21 0)
 			(effects
 				(font
@@ -8394,7 +8452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ff90")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR?"
 			(at 92.71 177.8 0)
 			(effects
 				(font
@@ -8463,7 +8521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ff97")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR?"
 			(at 110.49 153.67 0)
 			(effects
 				(font
@@ -8532,7 +8590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ff9e")
-		(property "Reference" "C151"
+		(property "Reference" "C?"
 			(at 77.851 161.3916 0)
 			(effects
 				(font
@@ -8641,7 +8699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffa4")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR?"
 			(at 74.93 177.8 0)
 			(effects
 				(font
@@ -8710,7 +8768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffac")
-		(property "Reference" "U6"
+		(property "Reference" "U?"
 			(at 92.71 148.209 0)
 			(effects
 				(font
@@ -8832,7 +8890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffbc")
-		(property "Reference" "C150"
+		(property "Reference" "C?"
 			(at 61.8744 161.3916 0)
 			(effects
 				(font
@@ -8941,7 +8999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffc4")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR?"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -9010,7 +9068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffcb")
-		(property "Reference" "C149"
+		(property "Reference" "C?"
 			(at 113.411 157.5816 0)
 			(effects
 				(font
@@ -9119,7 +9177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d78ffd2")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR?"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -9253,7 +9311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dc815a7")
-		(property "Reference" "J7"
+		(property "Reference" "J?"
 			(at 319.532 158.9532 0)
 			(effects
 				(font
@@ -10599,16 +10657,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 166.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Field5" ""
 			(at 166.37 73.66 0)
 			(effects
@@ -10934,7 +10982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e7214f4")
-		(property "Reference" "C142"
+		(property "Reference" "C?"
 			(at 197.7644 86.4616 0)
 			(effects
 				(font
@@ -11043,7 +11091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e7214fd")
-		(property "Reference" "C143"
+		(property "Reference" "C?"
 			(at 209.931 86.4616 0)
 			(effects
 				(font
@@ -12509,7 +12557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e9ec768")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 90.17 200.279 0)
 			(effects
 				(font
@@ -12694,7 +12742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea46bad")
-		(property "Reference" "R56"
+		(property "Reference" "R?"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -12804,7 +12852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea4eb67")
-		(property "Reference" "R52"
+		(property "Reference" "R?"
 			(at 79.248 100.4316 0)
 			(effects
 				(font
@@ -12914,7 +12962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea4ef00")
-		(property "Reference" "R53"
+		(property "Reference" "R?"
 			(at 88.4174 100.4316 0)
 			(effects
 				(font
@@ -13129,7 +13177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaba0f4")
-		(property "Reference" "R47"
+		(property "Reference" "R?"
 			(at 201.168 170.2816 0)
 			(effects
 				(font
@@ -13303,7 +13351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaef331")
-		(property "Reference" "R39"
+		(property "Reference" "R?"
 			(at 192.278 166.4716 0)
 			(effects
 				(font
@@ -13469,7 +13517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb4705f")
-		(property "Reference" "R51"
+		(property "Reference" "R?"
 			(at 60.4774 238.8616 0)
 			(effects
 				(font
@@ -13814,7 +13862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ec1084d")
-		(property "Reference" "R54"
+		(property "Reference" "R?"
 			(at 60.4774 224.8916 0)
 			(effects
 				(font
@@ -13923,7 +13971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ecab3b5")
-		(property "Reference" "C148"
+		(property "Reference" "C?"
 			(at 120.65 213.36 0)
 			(effects
 				(font
@@ -14097,7 +14145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edca3ad")
-		(property "Reference" "C140"
+		(property "Reference" "C?"
 			(at 200.66 181.61 0)
 			(effects
 				(font
@@ -14204,7 +14252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eeee00f")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR?"
 			(at 62.23 226.06 0)
 			(effects
 				(font
@@ -14273,7 +14321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f019947")
-		(property "Reference" "C138"
+		(property "Reference" "C?"
 			(at 264.16 67.31 0)
 			(effects
 				(font
@@ -14382,7 +14430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f019fea")
-		(property "Reference" "C139"
+		(property "Reference" "C?"
 			(at 270.51 67.31 0)
 			(effects
 				(font
@@ -15623,7 +15671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3ee159")
-		(property "Reference" "R57"
+		(property "Reference" "R?"
 			(at 260.35 116.84 90)
 			(effects
 				(font
@@ -15730,7 +15778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4012dc")
-		(property "Reference" "R58"
+		(property "Reference" "R?"
 			(at 260.35 121.92 90)
 			(effects
 				(font
@@ -15837,7 +15885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f401539")
-		(property "Reference" "R60"
+		(property "Reference" "R?"
 			(at 260.35 127 90)
 			(effects
 				(font
@@ -16303,7 +16351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f5ec950")
-		(property "Reference" "R72"
+		(property "Reference" "R?"
 			(at 197.358 216.0016 0)
 			(effects
 				(font
@@ -16530,7 +16578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f60c71c")
-		(property "Reference" "R71"
+		(property "Reference" "R?"
 			(at 159.258 216.0016 0)
 			(effects
 				(font
@@ -16639,7 +16687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f81187c")
-		(property "Reference" "R59"
+		(property "Reference" "R?"
 			(at 258.318 172.8216 0)
 			(effects
 				(font
@@ -16749,7 +16797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f826f0d")
-		(property "Reference" "R61"
+		(property "Reference" "R?"
 			(at 258.318 188.0616 0)
 			(effects
 				(font
@@ -16859,7 +16907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9025eb")
-		(property "Reference" "R62"
+		(property "Reference" "R?"
 			(at 268.478 188.0616 0)
 			(effects
 				(font
@@ -17109,7 +17157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9e7e0c")
-		(property "Reference" "J6"
+		(property "Reference" "J?"
 			(at 323.088 45.9232 0)
 			(effects
 				(font
@@ -17420,7 +17468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060590093")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0230"
 			(at 190.5 191.77 0)
 			(effects
 				(font
@@ -17470,7 +17518,7 @@
 		(instances
 			(project "kimchi_micro"
 				(path "/394ea9d6-84ac-414f-b42c-59edf258c746/00000000-0000-0000-0000-00005dc6f4f1"
-					(reference "#PWR?")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
