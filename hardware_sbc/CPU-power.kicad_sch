@@ -15749,7 +15749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1e31db")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR?"
 			(at 297.18 195.58 0)
 			(effects
 				(font
@@ -15818,7 +15818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1e31e1")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR?"
 			(at 359.41 203.2 0)
 			(effects
 				(font
@@ -15887,7 +15887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1e31e7")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 328.295 52.705 0)
 			(effects
 				(font
@@ -17404,7 +17404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1e32b9")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 125.095 32.639 0)
 			(effects
 				(font
