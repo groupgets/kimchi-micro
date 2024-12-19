@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "kimχ micro")
-		(date "2020-09-27")
-		(rev "0.91")
+		(date "2024-12-19")
+		(rev "1.0")
 		(company "GroupGets, LLC")
 		(comment 2 "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
 		(comment 3 "Licensed CERN-OHL-S V.2")
