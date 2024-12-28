@@ -604,7 +604,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/gerber/",
+      "plot": "production/kimchi_micro_gerber/gerber/",
       "pos_files": "production/gerber/",
       "specctra_dsn": "",
       "step": "production/kimchi_micro.step",
