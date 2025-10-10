@@ -13,7 +13,7 @@ Besides the mPCIe expansion available on the board and the QWIIC connector, most
 
 This diagram is a placeholder. Most of these pins have multiple functions that will be documented soon.
 
-![expansion module header schematic](/kimchi-micro/images/hardware/expansion.png)
+![expansion module header schematic](/images/hardware/expansion.png)
 
 ## KiCAD template
 
