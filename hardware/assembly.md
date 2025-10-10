@@ -11,7 +11,7 @@ Expect assembly of this board to be difficult. There are many components, and on
 
 ## Support during stenciling
 
-![front side stencil fixture](/kimchi-micro/images/hardware/front-side-stencil-fixture.jpeg)
+![front side stencil fixture](/images/hardware/front-side-stencil-fixture.jpeg)
 
 There are 3d-printable fixtures available for supporting the board during stencil for both sides. They are created in OpenSCAD, so you can load these files and export them as STL or another format as required for your 3D printer.
 
@@ -23,7 +23,7 @@ The [second side / front stencil fixture](https://github.com/groupgets/kimchi-mi
 
 In second-sided reflow, holding the board in a stickvice with PTFE jaws works well:
 
-![front side reflow](/kimchi-micro/images/hardware/front-side-reflow.jpeg)
+![front side reflow](/images/hardware/front-side-reflow.jpeg)
 
 ## v0.9 Hardware Errata (rework items)
 
