@@ -142,7 +142,7 @@ The lower 16-bits will be programmed as follows:
 
 Note that there are a few unburned fuses that might enable enhanced features such as eMMC "fastboot" support, but in development [some problems were encountered enabling these features](https://community.nxp.com/thread/522197) so please take note and only do so at your own risk.
 
-![fusing table](/kimchi-micro/images/hardware/fusing.jpg)
+![fusing table](/images/hardware/fusing.jpg)
 
 
 
